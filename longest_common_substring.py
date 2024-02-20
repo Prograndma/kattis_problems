@@ -30,7 +30,6 @@ def new_hashing(in_str, length_of_hash):
 
     # Update hash values for subsequent substrings
     for i in range(length_of_hash, len(s)):
-        # Update cur_hash using the rolling hash formula you provided
         cur_hash = ((cur_hash - s[i - length_of_hash] * MAX_POW) * BASE + s[i]) % MOD
         hashes.add(cur_hash)
     return hashes
