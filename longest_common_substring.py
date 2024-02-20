@@ -15,7 +15,6 @@ def little_hash(in_str):
     return result
 
 
-
 def new_hashing(in_str, length_of_hash):
     MOD = 1_000_000_007
     BASE = 29
