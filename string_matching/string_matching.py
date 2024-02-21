@@ -21,7 +21,7 @@ def where_hash_present(in_str, hash_len, search_hash):
     for i in range(hash_len, len(s)):
         cur_hash = ((cur_hash - s[i - hash_len] * max_pow) * BASE + s[i]) % MOD
         if cur_hash == search_hash:
-            where.append(i)
+            where.append(i - hash_len + 1)
     return where
 
 
@@ -47,6 +47,6 @@ for line in sys.stdin:
         locations = where_hash_present(line, line_len, line_hash)
 
         for location in locations:
-            print(location - line_len + 1, end=" ")
+            print(location, end=" ")
         print("")
         is_pattern = True
