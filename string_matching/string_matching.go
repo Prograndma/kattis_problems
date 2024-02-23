@@ -18,9 +18,9 @@ func charsToArbitraryNumbers(inStr string) []int {
 	// see what type of performance boost you can get when you're done.
 	for _, char := range inStr {
 		if unicode.IsUpper(char) {
-			returnArray = append(returnArray, int(char)-96)
+			returnArray = append(returnArray, int(char)-66+28)
 		} else {
-			returnArray = append(returnArray, int(char)-66+26)
+			returnArray = append(returnArray, int(char)-96)
 		}
 	}
 	return returnArray
