@@ -8,7 +8,8 @@ BASE = 29
 def where_hash_present(in_str, hash_len, search_hash):
     max_pow = pow(BASE, hash_len - 1, MOD)
     # s = [int(ord(c) - 96) for c in in_str]
-    s = list(map(lambda x: ord(x) - 96 if x.islower() else ord(x) - 66 + 26, in_str))
+    # s = list(lambda x: ord(x) - 96 if x.islower() else ord(x) - 66 + 26, in_str)
+    s = [ord(x) - 96 if x.islower() else ord(x) - 66 + 26 for x in in_str]
     # Compute the initial hash value for the first substring of length length_of_hash
     where = []
     cur_hash = 0
@@ -26,7 +27,8 @@ def where_hash_present(in_str, hash_len, search_hash):
 
 
 def hashy(in_str):
-    s = list(map(lambda x: ord(x) - 96 if x.islower() else ord(x) - 66 + 26, in_str))
+    ### s = list(map(lambda x: ord(x) - 96 if x.islower() else ord(x) - 66 + 26, in_str))
+    s = [ord(x) - 96 if x.islower() else ord(x) - 66 + 26 for x in in_str]
 
     cur_hash = 0
     for i in range(len(in_str)):
