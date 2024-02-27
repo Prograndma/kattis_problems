@@ -5,14 +5,17 @@ import (
 	"unicode"
 )
 
-var letters string = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var letters string = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ \t"
 
 func charToArbitraryNumbers(char rune) int {
-
-	if unicode.IsUpper(char) {
-		return int(char) - 66 + 28
+	if unicode.IsLetter(char) {
+		if unicode.IsUpper(char) {
+			return int(char) - 66 + 28
+		} else {
+			return int(char) - 96
+		}
 	} else {
-		return int(char) - 96
+		return int(char) + 53
 	}
 
 }
