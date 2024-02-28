@@ -53,19 +53,24 @@ def where_hash_present(in_str, hash_len, search_hash):
     return where
 
 
-is_pattern = True
-line_len = 0
-line_hash = 0
-for line in sys.stdin:
-    line = line.strip()
-    if is_pattern:
-        line_hash = hashy(line)
-        line_len = len(line)
-        is_pattern = False
-    else:
-        locations = where_hash_present(line, line_len, line_hash)
+def main():
+    is_pattern = True
+    line_len = 0
+    line_hash = 0
+    for line in sys.stdin:
+        line = line.strip()
+        if is_pattern:
+            line_hash = hashy(line)
+            line_len = len(line)
+            is_pattern = False
+        else:
+            locations = where_hash_present(line, line_len, line_hash)
 
-        for location in locations:
-            print(location, end=" ")
-        print("")
-        is_pattern = True
+            for location in locations:
+                print(location, end=" ")
+            print("")
+            is_pattern = True
+
+
+if __name__ == "__main__":
+    main()
