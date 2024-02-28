@@ -13,7 +13,9 @@ var MOD = 1_000_000_007.
 
 func charsToArbitraryNumbers(inStr string) []*big.Int {
 	var returnArray []*big.Int
-	for _, char := range inStr {
+	for i := 0; i < len([]rune(inStr)); i++ {
+		char := rune(inStr[i])
+		// 	for _, char := range len([]rune(inStr)) - 1 {
 		if unicode.IsLetter(char) {
 			if unicode.IsUpper(char) {
 				returnArray = append(returnArray, big.NewInt(int64(char)-66+28))
