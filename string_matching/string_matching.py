@@ -6,7 +6,7 @@ BASE = 29
 
 def chars_to_arbitrary_numbers(in_str):
     return_array = []
-    for char in in_str:
+    for char in in_str[:-1]:
         if char.isalpha():
             if char.isupper():
                 return_array.append(ord(char) - 66 + 28)
