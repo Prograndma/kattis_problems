@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"math/big"
-	"os"
+	"strings"
 	"unicode"
 )
 
@@ -12,18 +12,17 @@ var BASE = 29.
 var MOD = 1_000_000_007.
 
 func charsToArbitraryNumbers(inStr string) []*big.Int {
-	var returnArray []*big.Int
-	for i := 0; i < len([]rune(inStr)); i++ {
-		char := rune(inStr[i])
-		// 	for _, char := range len([]rune(inStr)) - 1 {
+	inStr = strings.TrimSpace(inStr)
+	var returnArray = make([]*big.Int, len(inStr))
+	for i, char := range inStr {
 		if unicode.IsLetter(char) {
 			if unicode.IsUpper(char) {
-				returnArray = append(returnArray, big.NewInt(int64(char)-66+28))
+				returnArray[i] = big.NewInt(int64(char) - 66 + 28)
 			} else {
-				returnArray = append(returnArray, big.NewInt(int64(char)-96))
+				returnArray[i] = big.NewInt(int64(char) - 96)
 			}
 		} else {
-			returnArray = append(returnArray, big.NewInt(int64(char)+53))
+			returnArray[i] = big.NewInt(int64(char) + 53)
 		}
 	}
 	return returnArray
