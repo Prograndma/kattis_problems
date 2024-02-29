@@ -6,7 +6,7 @@ def create_substring(line, i):
     line = line.strip()
     line_len = len(line)
     if i % 10 == 9 and len(line) > 3:
-        return "zZ\n"                 ## intended to not exist. At least not often.
+        return "zZ\n"                 # intended to not exist. At least not often.
 
     if line_len < 8:
         return line + "\n"
