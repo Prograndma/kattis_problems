@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"math"
 	"os"
+	"strings"
 	"unicode"
 )
 
@@ -12,16 +13,17 @@ var BASE64 = 29.
 var MOD64 = 1_000_000_007.
 
 func charsToArbitraryNumbers64(inStr string) []int64 {
-	var returnArray []int64
-	for _, char := range inStr {
+	inStr = strings.TrimSpace(inStr)
+	var returnArray = make([]int64, len(inStr))
+	for i, char := range inStr {
 		if unicode.IsLetter(char) {
 			if unicode.IsUpper(char) {
-				returnArray = append(returnArray, int64(char)-66+28)
+				returnArray[i] = int64(char) - 66 + 28
 			} else {
-				returnArray = append(returnArray, int64(char)-96)
+				returnArray[i] = int64(char) - 96
 			}
 		} else {
-			returnArray = append(returnArray, int64(char)+53)
+			returnArray[i] = int64(char) + 53
 		}
 	}
 	return returnArray
@@ -30,7 +32,7 @@ func charsToArbitraryNumbers64(inStr string) []int64 {
 func hashy64(inStr string) int64 {
 	s := charsToArbitraryNumbers64(inStr)
 	var curHash int64 = 0
-	for i := 0; i < len(inStr); i++ {
+	for i := 0; i < len(s); i++ {
 		curHash = (curHash*int64(BASE64) + s[i]) % int64(MOD64)
 	}
 	return curHash
