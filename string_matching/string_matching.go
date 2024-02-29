@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"fmt"
 	"math/big"
 	"os"
 	"strings"
@@ -32,7 +31,7 @@ func charsToArbitraryNumbers(inStr string) []*big.Int {
 func hashy(inStr string) *big.Int {
 	s := charsToArbitraryNumbers(inStr)
 	var curHash = big.NewInt(0)
-	for i := 0; i < len(inStr); i++ {
+	for i := 0; i < len(s); i++ {
 		//curHash = (curHash*int(BASE) + s[i]) % big.Int(MOD)
 		curHash = curHash.Mul(curHash, big.NewInt(int64(BASE)))
 		curHash = curHash.Add(curHash, s[i])
