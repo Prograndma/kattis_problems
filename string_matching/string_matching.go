@@ -88,6 +88,7 @@ func main() {
 		scanner.Scan()
 		// Holds the string that scanned
 		input := scanner.Text()
+		input = strings.TrimSpace(input)
 		if len(input) == 0 {
 			break
 		}
