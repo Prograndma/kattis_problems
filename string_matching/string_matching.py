@@ -25,7 +25,7 @@ def hashy(in_str):
     s = chars_to_arbitrary_numbers(in_str)
 
     cur_hash = 0
-    for i in range(len(in_str)):
+    for i in range(len(in_str.strip())):
         cur_hash = (cur_hash * BASE + s[i]) % MOD
     return cur_hash
 
