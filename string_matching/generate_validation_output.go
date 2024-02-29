@@ -8,9 +8,9 @@ import (
 	"strings"
 )
 
-var PRE = "goOutputFor"
+var PRE = "string_matching\\goOutputFor"
 var END = ".txt"
-var TEST_FILE = "test_strings.txt"
+var TEST_FILE = "string_matching\\test_strings.txt"
 
 func listToSpaceSeperatedString(toConvert []*big.Int) string {
 	//return strings.Trim(strings.Replace(fmt.Sprint(a), " ", delim, -1), "[]")
@@ -22,10 +22,11 @@ func generateOutputForCharsToArbitraryNumbers() {
 	file, err := os.Open(TEST_FILE)
 	if err != nil {
 		fmt.Println("ERROR in opening", TEST_FILE)
+		fmt.Println(err)
 		return
 	}
 	name := PRE + "charsToArbitraryNumbers" + END
-	write_file, err := os.Create(name)
+	writeFile, err := os.Create(name)
 	if err != nil {
 		fmt.Println("ERROR in opening", TEST_FILE)
 		return
@@ -38,12 +39,22 @@ func generateOutputForCharsToArbitraryNumbers() {
 
 	for scanner.Scan() {
 		numbers := charsToArbitraryNumbers(scanner.Text())
-		str_results := listToSpaceSeperatedString(numbers)
-		write_file.Write(buf[:])
+		strResults := listToSpaceSeperatedString(numbers)
+		_, err := writeFile.WriteString(strResults + "\n")
+		if err != nil {
+			fmt.Println(err)
+			fmt.Println("Error writing to file")
+		}
 	}
 
-	if err := scanner.Err(); err != nil {
-		fmt.Println(err)
-		return
-	}
+	//if err := scanner.Err(); err != nil {
+	//	fmt.Println(err)
+	//	return
+	//}
+	fmt.Println("SUCCESS")
+
+}
+
+func main() {
+	generateOutputForCharsToArbitraryNumbers()
 }
