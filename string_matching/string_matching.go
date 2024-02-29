@@ -1,10 +1,7 @@
 package main
 
 import (
-	"bufio"
-	"fmt"
 	"math/big"
-	"os"
 	"strings"
 	"unicode"
 )
@@ -79,32 +76,32 @@ func whereHashPresent(inStr string, hashLen int, searchHash *big.Int) []*big.Int
 	return where
 }
 
-func main() {
-	var isPattern = true
-	var lineLen = 0
-	var lineHash *big.Int
-	scanner := bufio.NewScanner(os.Stdin)
-	for {
-		scanner.Scan()
-		// Holds the string that scanned
-		input := scanner.Text()
-		input = strings.TrimSpace(input)
-		if len(input) == 0 {
-			break
-		}
-		if isPattern {
-			//fmt.Println(input)
-			isPattern = false
-			lineHash = hashy(input)
-			lineLen = len(input)
-		} else {
-			isPattern = true
-			locations := whereHashPresent(input, lineLen, lineHash)
-			for location := range locations {
-				fmt.Print(locations[location], " ")
-			}
-			fmt.Println("")
-		}
-
-	}
-}
+//func main() {
+//	var isPattern = true
+//	var lineLen = 0
+//	var lineHash *big.Int
+//	scanner := bufio.NewScanner(os.Stdin)
+//	for {
+//		scanner.Scan()
+//		// Holds the string that scanned
+//		input := scanner.Text()
+//		input = strings.TrimSpace(input)
+//		if len(input) == 0 {
+//			break
+//		}
+//		if isPattern {
+//			//fmt.Println(input)
+//			isPattern = false
+//			lineHash = hashy(input)
+//			lineLen = len(input)
+//		} else {
+//			isPattern = true
+//			locations := whereHashPresent(input, lineLen, lineHash)
+//			for location := range locations {
+//				fmt.Print(locations[location], " ")
+//			}
+//			fmt.Println("")
+//		}
+//
+//	}
+//}

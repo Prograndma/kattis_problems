@@ -5,7 +5,7 @@ import (
 	"unicode"
 )
 
-var letters string = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ \t"
+var letters string = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ \t\n"
 
 func charToArbitraryNumbers(char rune) int {
 	if unicode.IsLetter(char) {
