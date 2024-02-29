@@ -25,13 +25,14 @@ func generateOutputForCharsToArbitraryNumbers() {
 		fmt.Println(err)
 		return
 	}
+	defer file.Close()
 	name := PRE + "charsToArbitraryNumbers" + END
 	writeFile, err := os.Create(name)
 	if err != nil {
 		fmt.Println("ERROR in opening", TEST_FILE)
 		return
 	}
-	defer file.Close()
+	defer writeFile.Close()
 	scanner := bufio.NewScanner(file)
 	const maxCapacity int = 5000000 // your required line length
 	buf := make([]byte, maxCapacity)
@@ -55,6 +56,44 @@ func generateOutputForCharsToArbitraryNumbers() {
 
 }
 
+func generateOutputForHashy() {
+	file, err := os.Open(TEST_FILE)
+	if err != nil {
+		fmt.Println("ERROR in opening", TEST_FILE)
+		fmt.Println(err)
+		return
+	}
+	defer file.Close()
+	name := PRE + "Hashy" + END
+	writeFile, err := os.Create(name)
+	if err != nil {
+		fmt.Println("ERROR in opening", TEST_FILE)
+		return
+	}
+	defer writeFile.Close()
+	scanner := bufio.NewScanner(file)
+	const maxCapacity int = 5000000 // your required line length
+	buf := make([]byte, maxCapacity)
+	scanner.Buffer(buf, maxCapacity)
+
+	for scanner.Scan() {
+		hashed := hashy(scanner.Text())
+		_, err := writeFile.WriteString(hashed.String() + "\n")
+		if err != nil {
+			fmt.Println(err)
+			fmt.Println("Error writing to file")
+		}
+	}
+
+	//if err := scanner.Err(); err != nil {
+	//	fmt.Println(err)
+	//	return
+	//}
+	fmt.Println("SUCCESS")
+
+}
+
 func main() {
 	generateOutputForCharsToArbitraryNumbers()
+	generateOutputForHashy()
 }
