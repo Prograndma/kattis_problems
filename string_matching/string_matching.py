@@ -5,6 +5,7 @@ BASE = 29
 
 
 def chars_to_arbitrary_numbers(in_str):
+    in_str = in_str.strip()
     return_array = []
     for char in in_str:
         if char.isalpha():
