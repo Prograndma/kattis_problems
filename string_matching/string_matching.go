@@ -38,6 +38,15 @@ func hashy(inStr string) *big.Int {
 	return curHash
 }
 
+func rollingHash(oldHash, maxPow, oldPos, newPos *big.Int) *big.Int {
+	var temp = oldPos.Mul(oldPos, maxPow)
+	oldHash = oldHash.Sub(oldHash, temp)
+	oldHash = oldHash.Mul(oldHash, big.NewInt(int64(BASE)))
+	oldHash = oldHash.Add(oldHash, newPos)
+	oldHash = oldHash.Mod(oldHash, big.NewInt(int64(MOD)))
+	return oldHash
+}
+
 func whereHashPresent(inStr string, hashLen int, searchHash *big.Int) []*big.Int {
 	var base = big.NewInt(29)
 	var mod = big.NewInt(1_000_000_007)

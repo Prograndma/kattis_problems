@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"math/big"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -83,11 +84,11 @@ func generateOutputForWhereHashPresent() {
 	var hashed *big.Int
 	var firstLine string
 	var nextLine string
-	defer func() {
-		fmt.Println(i)
-		fmt.Println(firstLine)
-		fmt.Println(nextLine)
-	}()
+	//defer func() {
+	//	fmt.Println(i)
+	//	fmt.Println(firstLine)
+	//	fmt.Println(nextLine)
+	//}()
 	for reader.Scan() {
 		if i%2 == 0 {
 			firstLine = strings.TrimSpace(reader.Text())
@@ -96,7 +97,12 @@ func generateOutputForWhereHashPresent() {
 			nextLine = strings.TrimSpace(reader.Text())
 			whereResults := whereHashPresent(nextLine, len(firstLine), hashed)
 			where := listToSpaceSeperatedString(whereResults)
-			_, err := writeFile.WriteString(where + "\n")
+			_, err := writeFile.WriteString(nextLine + ", " + strconv.Itoa(len(firstLine)) + ", " + hashed.String() + "\n")
+			if err != nil {
+				fmt.Println(err)
+				fmt.Println("Error writing to file")
+			}
+			_, err = writeFile.WriteString(where + "\n")
 			if err != nil {
 				fmt.Println(err)
 				fmt.Println("Error writing to file")

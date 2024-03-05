@@ -1,2318 +1,2318 @@
-16
+p, 1, 16
 0
-30085718
+Popup, 5, 30085718
 0
-199680
+helo, 4, 199680
 0
-12
+Hello there, 1, 12
 2 3
-0
+peek a boo, 0, 0
 0 1 2 3 4 5 6 7 8 10
-21481
+you speek a bootiful language, 3, 21481
 0
-36211
+anas, 4, 36211
 0
-407
+bananananaspaj, 2, 407
 2 4 6 8
-541
+years and my life is still, 2, 541
 3
-806
+Tryin to get up that great big hill of hope, 2, 806
 
-943
+For a destination, 2, 943
 0
-443248
+I realized quickly when I knew I should, 4, 443248
 2
-36746891
+That the world was made up of this brotherhood of man, 6, 36746891
 2
-675
+For whatever that means, 2, 675
 4
-8
+PreChorus, 1, 8
 4
-563872564
+And so I cry sometimes when Im lying in bed, 6, 563872564
 0
-15335597
+Just to get it all out whats in my head, 5, 15335597
 1
-4934124
+And I I am feeling a little peculiar, 5, 4934124
 2
-478506
+And so I wake in the morning and I step outside, 4, 478506
 4
-806
+And I take a deep breath and I get real high, 2, 806
 
-19443897
+And I scream from the top of my lungs, 5, 19443897
 0
-233
+Whats going on, 2, 233
 1
-600863170
+Chorus, 6, 600863170
 0
-35
+And I say heyeyey, 1, 35
 4
-344373684
+Heyeyey, 7, 344373684
 0
-31919
+I said Hey awhats going on, 3, 31919
 0
-587266303
+Bridge, 6, 587266303
 0
-703167599
+Ooh ooh, 7, 703167599
 0
-34924
+Ooh, 3, 34924
 0
-806
+Ooh uh huh, 2, 806
 
-37995
+See rock shows near Salt Lake City, 3, 37995
 0
-165
+Get tickets as low as, 2, 165
 1 8
-21
+You might also like, 1, 21
 2
-5
+Love Language, 1, 5
 3 12
-39380
+SZA, 3, 39380
 0
-34223515
+Did you know that theres a tunnel under Ocean Blvd, 7, 34223515
 0
-1
+Lana Del Rey, 1, 1
 1 3
-13936375
+Castles Crumbling Taylors Version From The Vault, 5, 13936375
 2
-12
+Taylor Swift, 1, 12
 3
-806
+Verse, 2, 806
 
-27
+And I try, 1, 27
 0
-8
+Oh my God do I try, 1, 8
 1
-598
+I try all the time, 2, 598
 2
-588
+In this institution, 2, 588
 3
-35
+And I pray, 1, 35
 4
-1197
+Oh my God do I pray, 2, 1197
 0
-482
+I pray every single day, 2, 482
 2
-18
+For revolution, 1, 18
 2 4
-1106
+I said Hey whats going on, 3, 1106
 3
-806
+Wake in the morning and step outside, 2, 806
 
-1123059
+Take a deep breath and I get real high, 4, 1123059
 0
-14
+And I scream, 1, 14
 1
-730
+Heyey yeah yeah yeah, 2, 730
 2 6 11 16
-29528047
+Outro, 5, 29528047
 0
-3310
+For a destination mmm, 3, 3310
 4
-24432
+Cant the future just wait, 3, 24432
 0
-1068032
+Cant the deadlines come fashionably late, 5, 1068032
 1
-86403
+I could push every goal back, 4, 86403
 2
-5
+Take control back, 1, 5
 3
-806
+If theyd roll back the rate, 2, 806
 
-803
+At which time starts to fly, 2, 803
 0
-140610
+Never landing or standing by, 4, 140610
 1
-643
+Never taking a break, 2, 643
 2
-18
+Ever making me retry, 1, 18
 3 15 18
-6448104
+We nickelanddime every quarter to two, 5, 6448104
 4
-589724716
+But maybe its time to let time pass through, 6, 589724716
 0
-7531
+If the future is bright, 3, 7531
 1
-92792161
+It doesnt shine with that end of the tunnel light, 6, 92792161
 3
-193787
+More like a deer in the headlights, 4, 193787
 3
-806
+Sudden red lights, 2, 806
 
-1207
+Or youre dead lights, 2, 1207
 0
-18464
+As the anglerfish bite, 3, 18464
 1
-19
+Its not fair, 1, 19
 2
-391636
+The past is clear but its clear back there, 4, 391636
 4
-18445
+Whats ahead No one knows, 3, 18445
 4
-24177
+But its closing in we swear, 3, 24177
 0
-416893748
+Still not in my prime I have so much to do, 6, 416893748
 1
-815442615
+I cant just rewrite decisions when life gets strange, 7, 815442615
 2
-742357541
+Should I go with my gut on which door I should shut, 7, 742357541
 3
-806
+Im unsure, 2, 806
 
-1019
+Id keep exploring this rut, 2, 1019
 0
-15412841
+But what good is time without change, 5, 15412841
 1
-521530654
+Move on, 7, 521530654
 0
-556
+Cause things never last, 2, 556
 3
-0
+Just move on, 0, 0
 0 1 2 3 4 5 6 8 9 10 12
-20553755
+Cause it goes too fast and the past has passed, 5, 20553755
 0
-15
+So move on, 1, 15
 1 4 8
-449
+No one likes an ending, 2, 449
 3
-846239012
+So whats with the attention we keep on giving them, 7, 846239012
 3
-806
+Why are we still spending so much time, 2, 806
 
-21661670
+Dreading our lives instead of living them, 5, 21661670
 0
-218606
+Why do we try to divert the river, 4, 218606
 1
-334702457
+When the water is what will deliver us where we need to go, 8, 334702457
 2
-10987
+We may never know why, 3, 10987
 3
-280
+Time is always in limited supply, 2, 280
 5
-24177
+But well live to regret it, 3, 24177
 0
-6
+If we get it, 1, 6
 1
-5849
+And then let it slip by, 3, 5849
 2
-88
+It can never rewind, 2, 88
 3
-806
+Once youve lost it its hard to find, 2, 806
 
-38726
+Take the journey in stride, 3, 38726
 0
-5794457
+When your plans have been sidelined, 5, 5794457
 1
-115968260
+Every hourly chime could begin something new, 6, 115968260
 2
-9240130
+So maybe its time to let time pass through, 5, 9240130
 3
-391635
+Not passing by but passing through, 4, 391635
 4 19
-38959
+Til the well runs dry, 3, 38959
 0
-628
+Just passing through, 2, 628
 1
-195190114
+As you promised me that I was more than all the miles combined, 7, 195190114
 3
-281980522
+You must have had yourself a change of heart like, 6, 281980522
 4
-806
+Halfway through the drive, 2, 806
 
-969149894
+Because your voice trailed off exactly as you passed my exit sign, 9, 969149894
 0
-237275952
+Kept on drivin straight and left our future to the right, 8, 237275952
 1
-85181162
+Now I am stuck between my anger and the blame that I cant face, 8, 85181162
 2
-844834761
+And memories are somethin even smoking weed does not replace, 7, 844834761
 4
-337444372
+And I am terrified of weather cause I see you when it rains, 8, 337444372
 4
-156578914
+Doc told me to travel but theres COVID on the planes, 7, 156578914
 0
-470615382
+And I love Vermont but its the season of the sticks, 7, 470615382
 1
-143089133
+And I saw your mom she forgot that I existed, 6, 143089133
 2
-779151007
+And its half my fault but I just like to play the victim, 7, 779151007
 4
-806
+Ill drink alcohol til my friends come home for Christmas, 2, 806
 
-563873025
+And Ill dream each night of some version of you, 6, 563873025
 0
-5701957
+That I might not have but I did not lose, 5, 5701957
 1
-532498279
+Now youre tire tracks and one pair of shoes, 6, 532498279
 2
-25143944
+And Im split in half but thatll have to do, 5, 25143944
 4
-71683051
+So I thought that if I piled something good on all my bad, 7, 71683051
 5
-289652933
+That I could cancel out the darkness I inherited from dad, 8, 289652933
 0
-368711262
+No I am no longer funny cause I miss the way you laugh, 6, 368711262
 1
-125030892
+You once called me forever now you still cant call me back, 8, 125030892
 2
-588
+Oh thatll have to do, 2, 588
 3
-806
+My other half was you, 2, 806
 
-26835079
+I hope this pains just passin through, 5, 26835079
 0
-629
+But I doubt it, 2, 629
 1
-22
+Have to do, 1, 22
 2
-601
+You turn my guitar on, 2, 601
 4
-24924088
+And Id give up forever to touch you, 5, 24924088
 4
-20553755
+Cause I know that you feel me somehow, 5, 20553755
 0
-322965828
+Youre the closest to heaven that Ill ever be, 6, 322965828
 1
-4934093
+And I dont want to go home right now, 5, 4934093
 2
-13631810
+Cause all I can taste is this moment, 5, 13631810
 3
-806
+And all I can breathe is your life, 2, 806
 
-1112586
+So and sooner or later its over, 4, 1112586
 0
-9038
+I just dont wanna miss you tonight, 3, 9038
 2
-4934093
+And I dont want the world to see me, 5, 4934093
 2
-470096
+Cause I dont think that theyd understand, 4, 470096
 3
-4848
+When everythings made to be broken, 3, 4848
 5
-925411
+I just want you to know who I am, 4, 925411
 0
-292079756
+And you cant fight the tears that aint coming, 6, 292079756
 1
-17057
+Or the moment of truth in your lies, 3, 17057
 3
-567834
+So when everything feels like the movies, 4, 567834
 3
-806
+Yeah you bleed just to know youre alive, 2, 806
 
-26836938
+I just want you to know who I am hey, 5, 26836938
 0
-562214
+I want you guys to take this one home alright, 4, 562214
 2
-4934099
+And I just want you to know who I am, 5, 4934099
 2
-1248081
+Yeah, 4, 1248081
 0
-6521
+You guys are the best, 3, 6521
 4
-1128902
+This the the best th of July ever, 4, 1128902
 0
-643
+Ever ever ever, 2, 643
 1 6 11
-643
+Give yourself some love, 2, 643
 2 21
-196596
+You have no idea how much we love you goodnight, 4, 196596
 4
-806
+Thank you for sticking around, 2, 806
 
-795
+Alright yall yeah, 2, 795
 0
-5615806
+We gonna try do one more for you okay, 5, 5615806
 1
-7
+We got one more, 1, 7
 3
-13399
+I am a question to the world, 3, 13399
 3
-43
+Not an answer to be heard, 2, 43
 4 7
-1017553
+Or a moment thats held in your arms, 4, 1017553
 0
-10071650
+And what do you think youd ever say, 5, 10071650
 1
-573988
+I wont listen anyway you dont know me, 4, 573988
 2
-29795
+And Ill never be what you want me to be, 3, 29795
 4
-806
+And what do you think youd understand, 2, 806
 
-1028
+Im a boy no Im a man, 2, 1028
 0 12
-385964
+You cant take me and throw me away, 4, 385964
 1
-4909375
+And how can you learn whats never shown, 5, 4909375
 2
-267337
+Yeah you stand here on your own, 4, 267337
 3
-110597
+They dont know me cause Im not here, 4, 110597
 5
-23117
+And I want a moment to be real, 3, 23117
 0
-36570
+Wanna touch things I dont feel, 4, 36570
 1
-12181
+Wanna hold on and feel I belong, 3, 12181
 2
-7186
+And how can the world want me to change, 3, 7186
 4
-806
+Theyre the ones that stay the same, 2, 806
 
-19443887
+And you see the things they never see, 5, 19443887
 0
-360
+All you wanted I could be, 2, 360
 1
-633172
+Now you know me and Im not afraid, 4, 633172
 2
-31923
+And I wanna tell you who I am, 3, 31923
 4
-21481
+Can you help me be a man, 3, 21481
 4
-949316540
+They cant break me as long as I know who I am, 6, 949316540
 0
-6898
+They cant see me but Im still here, 3, 6898
 1
-170
+They cant tell me who to be, 2, 170
 2
-556
+Cause Im not what they see, 2, 556
 3 23
-806
+Yeah the world is still sleepin, 2, 806
 
-1202062
+While I keep on dreaming for me, 4, 1202062
 0
-347295
+And their words are just whispers, 4, 347295
 1
-169398
+And lies that Ill never believe, 4, 169398
 2
-7186
+And how can they say I never change, 3, 7186
 4
-201797
+Im the one now cause Im still here, 4, 201797
 4
-867033
+Im the one cause Im still here, 4, 867033
 0
-11284286
+Im still here Im still here Im still here, 5, 11284286
 1 15 29
-10022999
+Candy shes sweet like candy in my veins, 5, 10022999
 2
-682238
+Baby Im dying for another taste, 4, 682238
 3
-806
+And every night my mind is running around her, 2, 806
 
-1129245
+Thunders getting louder and louder, 4, 1129245
 0
-779574
+Baby youre like lightning in a bottle, 5, 779574
 1
-74434
+I cant let you go now that I got it, 4, 74434
 2
-1201
+And all I need is to be struck, 3, 1201
 4
-13242
+By your electric love, 3, 13242
 4
-23579
+Baby your electric love ah, 3, 23579
 0
-353
+Electric love ahah, 2, 353
 1
-324348011
+Drown me drown me you make my heart beat like the rain, 6, 324348011
 2 11
-13114964
+Surround me oh hold me deep beneath your waves, 5, 13114964
 3
-806
+Thunders getting louder and louder and louder, 2, 806
 
-1297
+Rushing through me, 2, 1297
 0
-150696
+I feel your energy rushing through me, 4, 150696
 2
-83
+Baby your electric, 2, 83
 2
-34087127
+Verse, 5, 34087127
 0
-16597
+Old suitcase clean getaway, 3, 16597
 4
-25143965
+Im the one who takes the blame again, 5, 25143965
 0
-168
+New day but the same lines, 2, 168
 1
-150696
+I feel like a victim of the dollar sign, 4, 150696
 2
-588
+All these years on my own, 2, 588
 4
-806
+Fight my fight all alone, 2, 806
 
-38959
+Til you came dont you know, 3, 38959
 0
-15
+Dont you know, 1, 15
 1 6 11
-131848999
+Baby youre the highlight of my lowlife ayy Lowlife lowlife, 8, 131848999
 2
-720360808
+Take a shitty day and make it alright yeah alright, 7, 720360808
 3
-14244
+Oh in every circumstance, 3, 14244
 4
-1248081
+Yeah you make the difference, 4, 1248081
 0
-22607661
+Baby youre the highlight of my lowlife lowlife, 6, 22607661
 1
-679
+Lowlife lowlife, 2, 679
 2 10
-534935
+This bad taste these headaches, 4, 534935
 3
-806
+Wake up on the floor again ah yeah, 2, 806
 
-974681
+My torn dress this failed test, 4, 974681
 0
-13064
+Soon they will be erased, 3, 13064
 1
-5
+the grudge, 1, 5
 2 9
-647
+Olivia Rodrigo, 2, 647
 3
-293621
+lacy, 4, 293621
 0
-37
+Knockoff, 1, 37
 0
-30085582
+Poppy, 5, 30085582
 0
-4
+And I get so lonely, 1, 4
 2
-1267
+I cant make it on my own, 3, 1267
 3
-806
+And I need to call ya, 2, 806
 
-24432
+Can you come to my chateau, 3, 24432
 0
-1165
+Take me in your arms and, 3, 1165
 1
-298510
+Hold me tight yeah pull me close, 4, 298510
 2
-567
+Whisper in my ear, 2, 567
 3
-31923
+All I want you to say is, 3, 31923
 4
-575091746
+Baby youre the highlight of my lowlife ayy, 6, 575091746
 0
-10541
+Alone in a crowded room, 3, 10541
 1
-170
+My eyes will search for you, 2, 170
 3
-11905
+Abandoned by my company, 3, 11905
 3
-806
+Ill search for whats in front of me, 2, 806
 
-23117
+And hope that I find something new, 3, 23117
 0
-19761964
+My heart is like the ocean searching, 5, 19761964
 1
-1149047
+Searching for the shore Im learning, 5, 1149047
 2
-374821713
+There must be something more than dreaming, 6, 374821713
 3
-10817385
+Oohoohoohoohoohoooh oohoohoohoohoohoooh, 5, 10817385
 1 4 7 10 21 24 27 30
-1204
+Oohoohoohoohoohoooh, 2, 1204
 0
-7008
+This heart of mine is tired, 3, 7008
 1
-19298
+But my feet will not retire, 3, 19298
 2
-1192
+The alcohol will not suppress, 3, 1192
 4
-806
+The fear of death and loneliness, 2, 806
 
-31911
+I know that Im not alone, 3, 31911
 0
-456874618
+Ive wrestled with the truth for quite some time, 6, 456874618
 1
-4932267
+And Ive been drowning in this restless mind, 5, 4932267
 2
-471058
+Im sick of being so unsatisfied, 4, 471058
 3
-382
+Tell me that the answers right, 2, 382
 5
-28192
+God are You awake at night, 3, 28192
 0
-42606
+Cause Ive been abandoned by my company, 4, 42606
 1
-763469476
+Baby I dont feel so good six words you never understood, 7, 763469476
 2
-10042544
+Ill never let you go five words youll never say aww, 5, 10042544
 4 38
-806
+I laugh along like nothings wrong four days has never felt so long, 2, 806
 
-72410163
+If threes a crowd and two was us one slipped away hahahahaha, 8, 72410163
 0
-9038
+I just wanna make you feel okay, 3, 9038
 2
-16219886
+But all you do is look the other way, 5, 16219886
 2
-898215069
+I cant tell you how much I wish I didnt wanna stay, 7, 898215069
 3
-482687
+I just kinda wish you were gay, 4, 482687
 4
-872079
+Is there a reason were not through, 4, 872079
 0
-535464
+Is there a step just for you, 4, 535464
 1
-510589
+Our conversations all in blue, 4, 510589
 2
-19
+heys Hey hey hey hey, 1, 19
 3
-806
+Ten fingers tearin out my hair, 2, 806
 
-983540
+Nine times you never made it there, 4, 983540
 0
-1201732
+I ate alone at seven you were six minutes away, 5, 1201732
 2
-632474
+How am I supposed to make you feel okay, 4, 632474
 2
-11976200
+When all you do is walk the other way, 5, 11976200
 3
-465
+To spare my pride, 2, 465
 4
-956201304
+To give your lack of interest an explanation, 6, 956201304
 0
-13041
+Dont say Im not your type, 3, 13041
 1
-405946549
+Just say that Im not your preferred sexual orientation, 6, 405946549
 2
-19
+Im so selfish, 1, 19
 3 6 11
-806
+But you make me feel helpless yeah, 2, 806
 
-23117
+And I cant stand another day, 3, 23117
 0
-581
+Stand another day, 2, 581
 1
-16219886
+But all you do is look the other way hmm, 5, 16219886
 2
-778208464
+Hey I hear the voice of a preacher from the back room, 6, 778208464
 4
-194744885
+Calling my name and I follow just to find you, 6, 194744885
 4
-130261231
+I trace the faith to a broken down television and put on the weather, 9, 130261231
 0
-292088353
+And Ive trained myself to give up on the past cause, 6, 292088353
 1
-4696062
+I frozen time between hearses and caskets, 5, 4696062
 2
-470428073
+Lost control when I panicked at the acid test, 6, 470428073
 3
-806
+I wanna get better, 2, 806
 
-668897987
+While my friends were getting high and chasing girls down parkway lines, 10, 668897987
 0
-971253892
+I was losing my mind because the love the love the love the love the love, 9, 971253892
 2
-43709
+That I gave wasted on a nice face, 4, 43709
 2
-80688959
+In a blaze of fear I put a helmet on a helmet, 6, 80688959
 3
-91211375
+Counting seconds through the night and got carried away, 7, 91211375
 4
-920515495
+So now Im standing on the overpass screaming at the cars, 8, 920515495
 0
-170
+Hey I wanna get better, 2, 170
 1
-3052415
+I didnt know I was lonely til I saw your face, 5, 3052415
 2
-36570
+I wanna get better better better better, 4, 36570
 3
-806
+I didnt know I was broken til I wanted to change, 2, 806
 
-567652658
+I go up to my room and theres girls on the ceiling, 7, 567652658
 0
-446966058
+Cut out their pictures and I chase that feeling, 6, 446966058
 1
-32490621
+Of an eighteen year old who didnt know what loss was, 6, 32490621
 3
-35
+Now Im a stranger, 1, 35
 4
-778334296
+And I miss the days of a life still permanent, 6, 778334296
 4
-27967991
+Mourn the years before I got carried away, 5, 27967991
 0
-676087022
+So now Im staring at the interstate screaming at myself, 7, 676087022
 1
-15322997
+Cause Im sleeping in the back of a taxi, 5, 15322997
 2
-13526790
+Im screaming from my bedroom window, 5, 13526790
 3
-806
+Even if its gonna kill me, 2, 806
 
-15930479
+Woke up this morning early before my family, 6, 15930479
 0
-380199027
+From this dream where she was trying to show me, 6, 380199027
 1
-18343846
+How a life can move from the darkness, 5, 18343846
 2
-552
+She said to get better, 2, 552
 4
-11847951
+So I put a bullet where I shoulda put a helmet, 5, 11847951
 5 34
-352319733
+And I crash my car cause I wanna get carried away, 7, 352319733
 0
-19586804
+Thats why Im standing on the overpass screaming at myself, 8, 19586804
 1
-3629
+I did my best to notice, 3, 3629
 2
-413519
+When the call came down the line, 4, 413519
 3 22
-806
+Up to the platform of surrender, 2, 806
 
-925768
+I was brought but I was kind, 4, 925768
 0 18
-410
+And sometimes I get nervous, 2, 410
 1
-159
+When I see an open door, 2, 159
 2 16
-556
+Close your eyes, 2, 556
 3
-18
+Clear your heart, 1, 18
 4 9 14
-29
+Cut the cord, 1, 29
 0
-18
+Are we human, 1, 18
 1
-1
+Or are we dancer, 1, 1
 3 11
-560
+My sign is vital, 2, 560
 3
-806
+My hands are cold, 2, 806
 
-797
+And Im on my knees, 2, 797
 0
-13061
+Looking for the answer, 3, 13061
 1
-681612
+Pay my respects to grace and virtue, 4, 681612
 2
-5842
+Send my condolences to good, 3, 5842
 3
-340565
+Give my regards to soul and romance, 4, 340565
 5
-1128792
+They always did the best they could, 4, 1128792
 0
-410
+And so long to devotion, 2, 410
 1
-584235
+You taught me everything I know, 4, 584235
 2
-5
+Wave goodbye, 1, 5
 3 11
-806
+Wish me well, 2, 806
 
-43347
+Youve gotta let me go, 3, 43347
 0
-7929
+Will your system be alright, 3, 7929
 1
-136209
+When you dream of home tonight, 4, 136209
 2
-445681
+There is no message were receiving, 4, 445681
 3
-9388416
+Let me know is your heart still beating, 5, 9388416
 4
-43347
+Youve gotta let me know, 3, 43347
 0
-15
+Do I look lonely, 1, 15
 1 6 7 11
-16129
+I see the shadows on my face, 3, 16129
 2
-11615842
+People have told me I dont look the same, 5, 11615842
 3
-806
+Maybe I lost weight, 2, 806
 
-729171738
+Im playing hooky with the best of the best, 6, 729171738
 0
-961972077
+Put my heart on my chest so that you can see it too, 7, 961972077
 1
-16302272
+Im walking the long road watching the sky fall, 5, 16302272
 3
-246920915
+The lace in your dress tingles my neck how do I live, 6, 246920915
 4
-3510
+The death of a bachelor, 3, 3510
 4
-29265561
+Oh oh, 5, 29265561
 0
-4805
+Letting the water fall, 3, 4805
 1
-158
+Seems so fitting for, 2, 158
 2
-13729
+Happily ever after woo, 3, 13729
 3
-806
+How could I ask for more, 2, 806
 
-25184
+A lifetime of laughter, 3, 25184
 0
-16235742
+At the expense of the death of a bachelor, 5, 16235742
 1
-108
+Im cutting my mind off, 2, 108
 3
-9022605
+Feels like my heart is going to burst, 5, 9022605
 3
-162718305
+Alone at a table for two and I just wanna be served, 6, 162718305
 4
-352307410
+And when you think of me am I the best youve ever had, 7, 352307410
 0
-968656005
+Share one more drink with me smile even though youre sad, 8, 968656005
 1
-18
+Far away, 1, 18
 2
-535435
+This ship is taking me far away, 4, 535435
 3
-806
+Far away from the memories, 2, 806
 
-29216928
+Of the people who care if I live or die, 5, 29216928
 0
-20
+Starlight, 1, 20
 1 8
-568876
+I will be chasing a starlight, 4, 568876
 2
-273
+Until the end of my life, 2, 273
 3
-10461532
+I dont know if its worth it anymore, 5, 10461532
 4
-1001
+Hold you in my arms, 2, 1001
 0
-311
+I just wanted to hold, 2, 311
 2
-21
+You in my arms, 1, 21
 2
-771307384
+My life, 7, 771307384
 0
-806
+You electrify my life, 2, 806
 
-32123
+Lets conspire to ignite, 3, 32123
 0
-256711282
+All the souls that would die just to feel alive, 6, 256711282
 1
-12
+Ill never let you go, 1, 12
 1 2 10
-21481
+If you promise not to fade away, 3, 21481
 3
-18
+Never fade away, 1, 18
 4
-35108
+Our hopes and expectations, 3, 35108
 0
-10124
+Black holes and revelations, 3, 10124
 1
-939
+Black holes and revelations yeah, 3, 939
 2
-527
+Where is your boy tonight, 2, 527
 3
-806
+I hope he is a gentleman, 2, 806
 
-19443875
+And maybe he wont find out what I know, 5, 19443875
 0
-413768445
+You were the last good thing about this part of town, 7, 413768445
 1
-159
+When I wake up, 2, 159
 2
-568876
+Im willing to take my chances on, 4, 568876
 3
-255179018
+The hope I forget that you hate him more than you notice, 8, 255179018
 4
-925785
+I wrote this for you for you so, 4, 925785
 0
-456
+You need him I could be him, 2, 456
 1 16
-2505691
+I could be an accident but Im still tryin, 5, 2505691
 2
-494557
+And thats more than I can say for him, 4, 494557
 4
-806
+Someday Ill appreciate in value, 2, 806
 
-27918
+Get off my ass and call you, 3, 27918
 0
-169709741
+The mean time Ill sport my brand new fashion, 6, 169709741
 1
-472739969
+Of waking up with pants on at four in the afternoon, 6, 472739969
 3
-20
+One two three four, 1, 20
 4 8
-0
+Wont find out, 0, 0
 0 1 3 4 5 6 7
-991
+He wont find out, 2, 991
 0
-45477
+Maybe he wont find out what I know, 4, 45477
 1
-17057
+In the morning when you wake up, 3, 17057
 3
-6640498
+I like to believe you are thinking of me, 5, 6640498
 3
-806
+And when the sun comes through your window, 2, 806
 
-778309661
+I like to believe youve been dreaming of me, 6, 778309661
 0
-18
+Dreaming, 1, 18
 1
-778289611
+I know, 6, 778289611
 0
-470096
+Cause Id spend half this morning, 4, 470096
 3
-276261
+Thinking about the tshirt you sleep in, 4, 276261
 4
-35
+I should know, 1, 35
 0
-42606
+Cause Id spend all the whole day, 4, 42606
 1
-13930739
+Listening to your message Im keeping, 5, 13930739
 2
-14
+And never deleting, 1, 14
 1 4 16
-806
+When I saw you, 2, 806
 
-31
+Everyone knew, 1, 31
 0
-8716273
+I liked the effect that you had on my eyes, 5, 8716273
 2
-19299
+But no one else heard, 3, 19299
 2
-672
+The weight of your words, 2, 672
 4
-111602970
+Or felt the effect that they have on my mind, 6, 111602970
 4
-63645310
+Falling, 7, 63645310
 0
-11284286
+Im still alive but Im barely breathin, 5, 11284286
 1
-405944495
+Just prayed to a God that I dont believe in, 6, 405944495
 2
-470096
+Cause I got time while she got freedom, 4, 470096
 3
-806
+Cause when a heart breaks no it dont break even, 2, 806
 
-24187104
+Her best days will be some of my worst, 5, 24187104
 0
-169703983
+She finally met a man thats gonna put her first, 6, 169703983
 1
-193282171
+While Im wide awake shes no trouble sleepin, 6, 193282171
 2
-464885486
+Cause when a heart breaks no it dont break even even no, 7, 464885486
 3
-752871469
+What am I supposed to do when the best part of me was always you And, 8, 752871469
 5
-138276012
+What am I supposed to say when Im all choked up that youre okay, 9, 138276012
 0
-13404
+Im fallin to pieces yeah, 3, 13404
 1
-6
+Im fallin to pieces, 1, 6
 3
-19771123
+They say bad things happen for a reason, 5, 19771123
 3
-806
+But no wise words gonna stop the bleedin, 2, 806
 
-20553755
+Cause shes moved on while Im still grievin, 5, 20553755
 0
-470257753
+And when a heart breaks no it dont break even even no, 7, 470257753
 1
-71405905
+And what am I going to do when the best part of me was always you And, 9, 71405905
 2
-13934048
+One still in love while the other ones leavin, 5, 13934048
 4
-324599543
+Oh you got his heart and my heart and none of the pain, 6, 324599543
 4
-36457312
+You took your suitcase I took the blame, 5, 36457312
 0
-455092097
+Now Im tryna make sense of what little remains oh, 7, 455092097
 1
-886632439
+Cause you left me with no love and no love to my name, 7, 886632439
 2
-395340881
+Cause when a heart breaks no it dont break, 6, 395340881
 3
-806
+No it dont break no it dont break even no, 2, 806
 
-311698306
+What am I gonna do when the best part of me was always you And, 7, 311698306
 0
-9213
+Oh that youre okay now, 3, 9213
 1
-4278524
+Im fallin to pieces oh Im fallin fallin yeah, 5, 4278524
 3 26 33
-281
+Oh it dont break even no, 2, 281
 3
-5629266
+These words are supposed to be simple, 5, 5629266
 4
-24177
+But it seems thats not the case, 3, 24177
 0
-7008
+This page is staring back at me, 3, 7008
 1
-29958
+Im afraid to put a mark on its face, 4, 29958
 3
-867023
+Oh Im just tryna introduce you, 4, 867023
 3
-806
+To this idea that Ive grown used to, 2, 806
 
-25261071
+Its like sharing a dream with someone, 5, 25261071
 0
-289472099
+Once you say it out loud it cant be undone, 6, 289472099
 1
-9032
+Id jump off and into your arms, 3, 9032
 3
-35
+But I cant trust the fall, 1, 35
 4
-402
+Take my voice Im giving it though, 2, 402
 5
-31904
+I dont feel safe at all, 3, 31904
 0
-88
+I cant trust the fall, 2, 88
 2
-535233
+Its like waking up in surgery, 4, 535233
 2
-30972904
+I cant seem to see right past the lights and Im, 6, 30972904
 3
-806
+So scared to take a knife to my chest, 2, 806
 
-32123
+Let you see the heart thats inside, 3, 32123
 0
-103530072
+Yeah once you say it out loud it cant be undone, 6, 103530072
 1
-471267053
+But I cant trust the fall I cant trust the fall, 6, 471267053
 2
-318128613
+I dont feel safe at all dont feel safe at all, 6, 318128613
 3 25
-14085
+She put my name with yellow hearts, 3, 14085
 4
-28757
+Her favorite color like the stars, 3, 28757
 0
-125
+I didnt listen very hard, 2, 125
 2
-114546960
+When she told me she was crazy from the start, 6, 114546960
 2
-1106
+I said she was a work of art, 3, 1106
 3
-806
+I drive down open roads so slow, 2, 806
 
-833958
+Here comes the train I let it go, 4, 833958
 0
-7995
+Aint got nobody on my phone, 3, 7995
 1
-3813
+I dont like being all alone, 3, 3813
 2
-183777
+Not good at keeping with the trends, 4, 183777
 4
-183777
+Too good at welcoming amends, 4, 183777
 4
-30034
+Its been a while since I heard her, 3, 30034
 0
-47899
+Say that we were more than friends, 4, 47899
 1
-31935
+Oh I III know a lot is going on, 3, 31935
 3
-178826
+But girl please tell me and Ill let you be, 4, 178826
 4
-806
+Are you still with me or not, 2, 806
 
-32029443
+She put yellow hearts around my name, 5, 32029443
 0
-494964
+I thought they were all just the same, 4, 494964
 2
-21481
+To you what do they really mean, 3, 21481
 3
-194170
+Have you only been playing games, 4, 194170
 3
-19772147
+Im by the garden with the carpenter bees, 5, 19772147
 4
-934675
+Like Im Bob Rossin with a Harden beard, 4, 934675
 0
-827161296
+Taking it all in like I got no issues in my nature, 7, 827161296
 1
-230971
+Primroses blooming in the night, 4, 230971
 2
-116023
+Birds wanna take me on a flight, 4, 116023
 3
-806
+Appreciating my land before it turns into a glacier, 2, 806
 
-24622
+Chasers are of no good use, 3, 24622
 0
-7008
+This taste will be long endured, 3, 7008
 1
-729
+Whyd you have to go so soon, 2, 729
 2
-208343
+I thought this was good as new, 4, 208343
 3
-470064
+Please come now I think Im falling, 4, 470064
 4
-25143624
+Im holding on to all I think is safe, 5, 25143624
 0
-16234814
+It seems I found the road to nowhere, 5, 16234814
 1
-5864
+And Im trying to escape, 3, 5864
 2
-132390
+I yelled back when I heard thunder, 4, 132390
 3
-806
+But Im down to one last breath, 2, 806
 
-23117
+And with it let me say let me say, 3, 23117
 0
-15
+Hold me now, 1, 15
 1 9
-16264
+Im six feet from the edge and Im thinking, 3, 16264
 3
-55467
+Maybe six feet aint so far down, 4, 55467
 3
-378778
+Im looking down now that its over, 4, 378778
 4
-1077507
+Reflecting on all of my mistakes, 4, 1077507
 0
-494964
+I thought I found the road to somewhere, 4, 494964
 2
-11101
+Somewhere in His grace, 3, 11101
 2
-446720
+I cried out Heaven save me save me, 4, 446720
 3
-806
+Maybe six feet aint so far down Im so far down, 2, 806
 
-1306
+Sad eyes follow me, 2, 1306
 0
-446984733
+But I still believe theres something left for me, 6, 446984733
 1
-476
+So please come stay with me, 2, 476
 3
-492056285
+Cause I still believe theres something left for you and me, 8, 492056285
 3
-21481
+For you and me for you and me, 3, 21481
 4 19
-729174197
+Im six feet from the edge and Im thinking thinking, 6, 729174197
 0
-14833164
+Mr Hollywood wont you come back soon, 5, 14833164
 1
-163139127
+She said Mr Hollywood wont you come back soon, 6, 163139127
 2
-390644481
+She said Mr Hollywood wont you come back soon ayy ayy, 6, 390644481
 4
-806
+She said, 2, 806
 
-29373584
+Ooh I just wanna lay right by your side, 5, 29373584
 0
-5613283
+We dont gotta love each other right, 5, 5613283
 1
-262122
+We just gotta make it through the night, 4, 262122
 3
+You dont gotta say, 1, 4
 4
-4
-6684
+Youre not into me no more, 3, 6684
 4 16
-1201948
+When we pass out on the floor, 4, 1201948
 0
-128635
+See the sun rise through the door, 4, 128635
 1
-17057
+By the way you move I know you want me to, 3, 17057
 3
-10581918
+Tell you all the rules I know Im searching too, 5, 10581918
 3
-806
+Give me all your clues and things to guide me through, 2, 806
 
-32736713
+The end of the world the end of the world, 5, 32736713
 0
-225726568
+Dont blow out the fuse when darkness comes to light, 7, 225726568
 1
-334813
+So much I could do to make you come to life, 4, 334813
 3
-147571897
+Fingers coming loose I see theres no more time, 6, 147571897
 3
-492345
+Dont tell me Im gone dont tell me Im gone, 4, 492345
 5 26
-833795
+Help me its like the walls are caving in, 4, 833795
 0
-376933
+Sometimes I feel like giving up, 4, 376933
 1
-20
+But I just cant, 1, 20
 2 9 14
-280
+It isnt in my blood, 2, 280
 3
-806
+Laying on the bathroom floor feeling nothing, 2, 806
 
-729171191
+Im overwhelmed and insecure give me something, 6, 729171191
 0
-86403
+I could take to ease my mind slowly, 4, 86403
 2
-13997837
+Just have a drink and youll feel better, 5, 13997837
 2
-16235545
+Just take her home and youll feel better, 5, 16235545
 3
-492345
+Keep telling me that it gets better, 4, 492345
 5
-30
+Does it ever, 1, 30
 0
-437702
+No medicine is strong enough, 4, 437702
 1
-382
+Someone help me, 2, 382
 2 13
-3046
+Im crawling in my skin, 3, 3046
 3
-806
+Im looking through my phone again feeling anxious, 2, 806
 
-19258097
+Afraid to be alone again I hate this, 5, 19258097
 0
-327267479
+Im tryna find a way to chill cant breathe oh, 6, 327267479
 1
-494671
+Is there somebody who could help me, 4, 494671
 3
-10364
+Its like the walls are caving in, 3, 10364
 4
-16405
+It isnt in my blood oh, 3, 16405
 4
-35
+I need somebody now, 1, 35
 0
-12997
+Someone to help me out, 3, 12997
 1
-280
+It isnt in my blood oh oh, 2, 280
 3
-15
+Oh oh oh, 1, 15
 3 6
-28764
+Hey, 3, 28764
 0
-577891216
+Beautiful beautiful beautiful beautiful angel, 6, 577891216
 0
-11152468
+Love your imperfections every angle, 5, 11152468
 1
-9576163
+Tomorrow comes and goes before you know, 5, 9576163
 2
-925411
+So I just had to let you know, 4, 925411
 3
-16315362
+The way that Gucci look on you amazing, 5, 16315362
 4
-589724759
+But nothing can compare to when youre naked, 6, 589724759
 0
-326011071
+Now a backwood and some Henny got you faded, 6, 326011071
 1
-519494077
+Saying you the one for me I need to face it, 6, 519494077
 2
-455971
+Started when we were younger, 4, 455971
 3
-806
+Swear to God that I loved her, 2, 806
 
-1110660
+Sorry that your mom found out, 4, 1110660
 0
-516944
+Guess that we just really had the thunder, 4, 516944
 1
-360745
+Aint nobody else that Id be under, 4, 360745
 2
-529256
+Beautiful beautiful life right now, 4, 529256
 3 13
-14370788
+Beautiful beautiful night right now, 5, 14370788
 4 14
-40
+No no nooooo, 1, 40
 0
-169718059
+The way that dress fall off you is amazing, 6, 169718059
 1
-543229
+Love a miracle a beautiful creation, 4, 543229
 2
-19758061
+Baby come a little closer let me taste it, 5, 19758061
 3
-806
+You came a little closer now youre shaking, 2, 806
 
-33807
+Never ever gon mislead you, 3, 33807
 0
-10969948
+Dont believe the lies they feed you, 5, 10969948
 1
-381757
+Stop and stare like a sculpture, 4, 381757
 2
-12359
+Painted in your colors, 3, 12359
 3
-14370788
+Beautiful beautiful by my side right now yeah, 5, 14370788
 4 14
-34
+Hey no no, 1, 34
 0
-9976178
+Beautiful beautiful beautiful beautiful angel angel, 7, 9976178
 1 11 21 31
-456876229
+Love your imperfections every angle no no yeah, 6, 456876229
 2
-16315362
+The way that Gucci look on you amazing hey, 5, 16315362
 4
-806
+But nothing can compare to when youre naked oh oh, 2, 806
 
-32912147
+Tomorrow comes and go before you know, 5, 32912147
 0
-311
+I just had to let you know, 2, 311
 2
-4252
+Swear to God youre beautiful yeah, 3, 4252
 2
-13041
+I dont want a friend just me, 3, 13041
 3
-10461601
+I want my life in two my life in two, 5, 10461601
 4
-1065
+Just one more night, 2, 1065
 0
-38
+Waiting to get there, 2, 38
 1
-8158
+Waiting for you all night, 3, 8158
 2
-93001933
+Im done fighting all night waiting for you, 6, 93001933
 3
-806
+When Im around slow dancing in the dark, 2, 806
 
-744711
+Dont follow me youll end up in my arms, 4, 744711
 0
-456
+You have made up your mind, 2, 456
 1 18
-3813
+I dont need no more signs, 3, 3813
 2
-282383819
+Can you, 7, 282383819
 0
-323745
+Give me reasons we should be complete, 4, 323745
 5
-36457311
+You should be with him I cant compete, 5, 36457311
 0
-324603743
+You looked at me like I was someone else oh well, 6, 324603743
 1
-426
+Cant you see Cant you see, 2, 426
 2 15
-225743909
+I dont wanna slow dance I dont want to slow dance, 7, 225743909
 3 27
-806
+In the dark, 2, 806
 
-733044
+Dark, 4, 733044
 0
-237
+When you gotta run, 2, 237
 1
-13997841
+Just hear my voice in you my voice in you, 5, 13997841
 2
-14641382
+Shutting me out of you shutting me out of you, 5, 14641382
 3 26
-242774
+Doing so great so great so great, 4, 242774
 4
-43347
+You, 3, 43347
 0
-13566133
+Used to be the one used to be the one, 5, 13566133
 1 20
-247
+To hold you when you fall, 2, 247
 3
-224822044
+Yeah yeah yeah when you fall when you fall, 6, 224822044
 3 8
-806
+I dont fuck with your tone I dont fuck with your tone, 2, 806
 
-26831713
+I dont wanna go home I dont wanna go home, 5, 26831713
 0 21
-43
+Can it be one night, 2, 43
 1
-14
+Cant you see, 1, 14
 2
-42027
+Swear I couldnt sleep a wink last night, 4, 42027
 3
-373830
+No point in turnin off the lights, 4, 373830
 4
-831615028
+Not the same without your head on my shoulders, 6, 831615028
 0
-13116511
+Growin pains but I dont wanna get older, 5, 13116511
 1
-330243
+Almost like we left it all on read, 4, 330243
 2
-13809
+Couple feelings never laid to rest, 3, 13809
 3
-806
+Didnt know that the party was over, 2, 806
 
-19443871
+And its true that I need you here closer, 5, 19443871
 0
-627
+Burning photos, 2, 627
 1
-5849
+Had to learn to let go, 3, 5849
 2
-19
+I used to be, 1, 19
 3
-61534
+Somebody in another skin another skin, 4, 61534
 4
-26834774
+I heard that youre happy without me, 5, 26834774
 0
-410
+And I hope its true, 2, 410
 1
-7179
+I hope I hope its true, 3, 7179
 2 9
-276208
+It kills me a little thats okay, 4, 276208
 3
-806
+Cause Id die for you, 2, 806
 
-43347
+You know Id still die for you, 3, 43347
 0
-175095326
+I hope youre getting everything you needed needed, 6, 175095326
 2
-783364989
+Found the puzzle piece and feel completed completed, 7, 783364989
 2
-16238071
+Just wanted you to know every reason, 5, 16238071
 3
-21481
+Hope you really know that I mean that, 3, 21481
 5
-35
+I couldnt see, 1, 35
 0
-237
+The forest from the trees, 2, 237
 1 17
-373
+Only time we speak, 2, 373
 2
-275
+Is in my dreams, 2, 275
 3
-806
+Georgia wrap me up in all your, 2, 806
 
-31923
+I want you in my arms, 3, 31923
 0
-8
+Oh let me hold you, 1, 8
 1 10
-10572378
+Ill never let you go again like I did, 5, 10572378
 2
-35
+Oh I used to say, 1, 35
 3
-742337575
+I would never fall in love again until I found her, 7, 742337575
 4
-778473597
+I said I would never fall unless its you I fall into, 6, 778473597
 0
-472998947
+I was lost within the darkness but then I found her, 6, 472998947
 2
-6
+I found you, 1, 6
 2
-445151
+Georgia pulled me in I asked to, 4, 445151
 3
-806
+Love her once again, 2, 806
 
-43347
+You fell I caught you, 3, 43347
 0
-450756484
+As I walk through the streets of my new city, 6, 450756484
 1
-49717
+My back feeling much better I suppose, 4, 49717
 3
-443306
+Ive reclaimed the use of my imagination, 4, 443306
 4
-1553912
+For better or for worse Ive yet to know, 5, 1553912
 4
-102037584
+But I always knew youd be the one to understand me, 7, 102037584
 0
-5467911
+I guess thats why it took so long to get things right, 5, 5467911
 2
-120
+Suddenly Im lost, 2, 120
 2
-13
+On my street, 1, 13
 3
-806
+On my block, 2, 806
 
-41
+Oh why Oh why, 1, 41
 0 7
-7750913
+Oh why havent you been there for me, 5, 7750913
 1
-10461939
+Cant you see Im losing my mind this time, 5, 10461939
 2
-15528498
+This time I think its for real I can see, 5, 15528498
 3
-17057
+All the tree tops turning red, 3, 17057
 4
-32736710
+The beggars near bodegas grin at me, 5, 32736710
 0
-588
+I think they want something, 2, 588
 2 8 22
-2427682
+I close my eyes I tell myself to breathe, 5, 2427682
 2
-0
+And be calm, 0, 0
 0 1
-806
+Be calm, 2, 806
 
-778289611
+I know you feel like you are breaking down, 6, 778289611
 0
-7763224
+Oh I know that it gets so hard sometimes, 5, 7763224
 1
-465961
+Im scared that everyone is out to get me, 4, 465961
 3
-395324719
+These days before you speak to me you pause, 6, 395324719
 3
-562532
+I always see you looking out your window, 4, 562532
 4
-19259904
+After all you lost your band you left your mom, 5, 19259904
 0
-326012611
+Now every single crack every penny that I pass, 6, 326012611
 1
-628204
+Says I should either leave or pick it up, 4, 628204
 2
-569104
+But with every single buck Ive made, 4, 569104
 4
-806
+Im saddled with bad luck that came, 2, 806
 
-38923
+The moment I was baptized, 3, 38923
 0
-14823703
+Or when I found out one day Im gonna die, 5, 14823703
 1
-317885362
+If only I could find my people or my place in life, 6, 317885362
 3
-6887
+A when they come acarolin, 3, 6887
 3
-13228
+So loud so bright the theremin, 3, 13228
 4
-41482
+Will lead us to a chorus, 3, 41482
 0
-168071292
+Where well all rejoice and sing a song that goes, 6, 168071292
 1
-0
+Oh be calm, 0, 0
 0 1 2 3 4 5 6 7 8 9 10
-10289597
+I know that it gets so hard sometimes, 5, 10289597
 3
-806
+Take it from me Ive been there a thousand times, 2, 806
 
-660589139
+You hate your pulse because it thinks youre still alive, 7, 660589139
 0
-410
+And everythings wrong, 2, 410
 1
-9038
+It just gets so hard sometimes, 3, 9038
 3
-13041
+I dont remember much that night, 3, 13041
 3
-562147
+Just walking thinking fondly of you, 4, 562147
 5
-32738024
+Thinking how the worst is yet to come, 5, 32738024
 0
-5794438
+When from that street corner came a song, 5, 5794438
 1
-5864
+And I cant remember the man, 3, 5864
 2
-13499
+The panhandler or his melody, 3, 13499
 4
-806
+The words exchanged had far exceeded any change Id given thee, 2, 806
 
-660589139
+You hate your pulse because it still thinks youre alive, 7, 660589139
 0
-643
+Ive been waiting for months, 2, 643
 1
-281
+Waiting for years, 2, 281
 2
-17095
+Waiting for you to change, 3, 17095
 3
-15412754
+Aw but there aint much thats dumber, 5, 15412754
 4
-1128785
+There aint much thats dumber, 4, 1128785
 0
-165209877
+Than pinning your hopes on a change in another, 6, 165209877
 1
-338109748
+And I yeah I still need you but what goods that gonna do, 8, 338109748
 2
-574038033
+Needing is one thing and getting getting is another, 7, 574038033
 3
-806
+So I been sitting around, 2, 806
 
-1422
+Wasting my time, 2, 1422
 0
-377730
+Wondering what you been doing, 4, 377730
 1
-1251
+Aw and it aint real forgiving, 3, 1251
 3
-1116
+It aint real forgiving, 3, 1116
 3
-194744720
+Sitting here picturing someone else living, 6, 194744720
 4
-30078
+Ive been hoping for months, 3, 30078
 0
-451
+Hoping for years, 2, 451
 1
-13731
+Hoping I might forget, 3, 13731
 2
-2311
+Aw but it dont get much dumber, 3, 2311
 3
-806
+It dont get much dumber, 2, 806
 
-949209750
+Than trying to forget a girl when you love her, 6, 949209750
 0
-512062400
+Oh needing is one thing and getting getting is another, 7, 512062400
 1
-21
+Youre right, 1, 21
 2
-15302
+Theres nothing more lovely, 3, 15302
 3
-140403
+Theres nothing more profound, 4, 140403
 4
-1342
+Than the certainty, 2, 1342
 0
-165209992
+Than the certainty that all of this will end, 6, 165209992
 1
-49
+That all of this will end, 2, 49
 2
-13084
+So open your arms to me, 3, 13084
 3
-806
+Open your arms to me, 2, 806
 
-949409070
+This will be the one moment that matters and, 6, 949409070
 0
-170990273
+This will be the one thing we remember and, 6, 170990273
 1
-6901081
+This will be the reason to rebel yeah and, 5, 6901081
 2
-450399592
+This will be the one moment that matters at all, 6, 450399592
 3
-203034
+So while the mile reclaims our footprints, 4, 203034
 4
-19443885
+And while our bones keep looking back, 5, 19443885
 0
-5852135
+The overgrowth is swallowing the path, 5, 5852135
 1
-137234
+Therefore the grace of God go we, 4, 137234
 2
-12858502
+Therefore the grace of time and chance, 5, 12858502
 3
-806
+And entropys cruel hands, 2, 806
 
-1112608
+So wont you stay here with me, 4, 1112608
 0
-10071647
+And well build til we blister our hands, 5, 10071647
 1
-142728993
+And well build us some temples build us some castles, 6, 142728993
 2
-280573916
+Build us some monuments and burn them all right down, 7, 280573916
 3
-518103
+Oh sugar oh sugar cant you see, 4, 518103
 4 13
-1001
+How hard Im trying, 2, 1001
 0
-324602873
+You know you gotta you know you gotta eventually, 6, 324602873
 1 20
-324
+Make up your mind, 2, 324
 2
-470075
+Cause no ones gonna find you, 4, 470075
 3
-806
+When youre hiding in the dark, 2, 806
 
-1175
+No ones gonna find you, 2, 1175
 0
-438002
+So wont you so wont you talk to me, 4, 438002
 1 13
-19
+Its time to decide, 1, 19
 2
-470075
+Cause no ones gonna save you, 4, 470075
 3
-385965
+If you dont swim for the boat, 4, 385965
 4
-1175
+No ones gonna save you, 2, 1175
 0
-7536
+If you wont take the rope, 3, 7536
 1
-4910357
+And its end love the sky is falling, 5, 4910357
 2
-363
+End love the sky is falling, 2, 363
 4
-806
+The sky is falling, 2, 806
 
-1112604
+So sugar so sugar dance with me, 4, 1112604
 0
-241
+This one last time, 2, 241
 1
-5336101
+We got no reason we got no reason I can see, 5, 5336101
 3 20
-247
+To hold back tonight, 2, 247
 3
-193851
+Cause no ones gonna catch you, 4, 193851
 4
-1021
+If you cant just let go, 2, 1021
 0
-15095
+No ones gonna love you, 3, 15095
 1
-740
+If you cant let love show, 2, 740
 3
-163202745
+Make up your mind You gotta make up your mind, 6, 163202745
 3 31
-806
+End love the sky is the sky is falling, 2, 806
 
-1035
+It was late at night, 2, 1035
 0
-456
+You held on tight, 2, 456
 1
-448
+From an empty seat, 2, 448
 2
-349
+A flash of light, 2, 349
 3
-273
+It will take a while, 2, 273
 4 17
-1349
+To make you smile, 2, 1349
 0
-12997
+Somewhere in these eyes, 3, 12997
 1
-15
+Im on your side, 1, 15
 3 7
-23
+You wideeyed girls, 1, 23
 4
-806
+You get it right, 2, 806
 
-929
+Fall back into place, 2, 929
 0
-159
+Tender is the night, 2, 159
 1
-18
+For a broken heart, 1, 18
 2 7 16
-676
+Who will dry your eyes, 2, 676
 4
-9
+When it falls apart, 1, 9
 5
-1201838
+What makes this fragile world go round, 4, 1201838
 0
-163
+Were you ever lost, 2, 163
 1 11
-19
+Was she ever found, 1, 19
 2 4
-6672
+Life begins to happen, 3, 6672
 3
-806
+When I plan somethin else, 2, 806
 
-1352
+Tryna be somebody, 2, 1352
 0
-531455
+But all I got was someone else, 4, 531455
 1
-476
+My plans always changin, 2, 476
 3
-54
+Always rearrangin no, 2, 54
 3
-281
+Slow it down release control, 2, 281
 5
-38208
+Slow and steady let me know, 3, 38208
 0
-237
+The hardest place to be, 2, 237
 1
-531
+Is right where you are, 2, 531
 3
-588
+In the space between, 2, 588
 3
-806
+The finish and the start, 2, 806
 
-30034
+Its the arrow in your heart, 3, 30034
 0
-237
+The arrow in your heart, 2, 237
 1 18
-23
+Now Im restless, 1, 23
 2
-12049
+Runnin from the present, 3, 12049
 3
-280511
+I I know my minds been cheated, 4, 280511
 4
-38927
+Thinkin that I will arrive, 3, 38927
 0
-629
+But my plans always changin, 2, 629
 1
-537
+Arrow in your heart, 2, 537
 2
-5094
+Run fast and Ill end up exhausted, 3, 5094
 4
-806
+Out of breath thinkin where I went wrong, 2, 806
 
-1128902
+This heart is afraid to beat slowly, 4, 1128902
 0
-6847365
+Miss a chance at what I could become, 5, 6847365
 1
-280511
+I know that I cant run forever, 4, 280511
 2
-925188
+But I cant stand still for too long, 4, 925188
 4
-6775
+The hardest place to be oh, 3, 6775
 4
-1201948
+When Im furthest from myself, 4, 1201948
 0
-4362
+Feeling closer to the stars, 3, 4362
 1
-20
+Outer space, 1, 20
 2
-1832
+Ive been invaded by the dark, 3, 1832
 4
-806
+Cant escape, 2, 806
 
-720618436
+Trying to recognize myself when I feel Ive been replaced, 8, 720618436
 0
-531489
+But I can feel a kick down in my soul, 4, 531489
 1
-8
+Ohhohohwoahoh, 1, 8
 1 2 4 6 10 12
-6871769
+And its pulling me back to Earth to let me know, 5, 6871769
 4
-12229
+I am not a slave cant be contained, 3, 12229
 5
-135233267
+So pick me from the dark and pull me from the grave cause, 7, 135233267
 0
-19
+I still feel alive, 1, 19
 2
-3949617
+When it is hopeless I start to notice, 5, 3949617
 2
-19320
+That I still feel alive, 3, 19320
 3
-806
+Falling forward back into orbit, 2, 806
 
-36194154
+Yeaah, 5, 36194154
 0
-368353954
+So when I lose my gravity in this sleepy womb, 6, 368353954
 1
-6528958
+Drifting as I dream but Ill wake up soon, 5, 6528958
 2
-372771855
+To realize the hand of life is reaching out, 6, 372771855
 3
-495897077
+To rid me of my pride I call allegiance to myself, 7, 495897077
 4
-34728
+Ohoh and I still feel alive, 3, 34728
 0
-1010316
+Falling forward back into orbit yeaah, 5, 1010316
 1
-2566
+I can feel a kick down in my soul, 3, 2566
 2
-494788
+And this heart that beats inside of me will show, 4, 494788
 4
-806
+It will show, 2, 806
 
-442788105
+Floating in outer space have I misplaced a part of my soul, 8, 442788105
 0
-321665114
+Lost in the inbetween or so it seems Im out of control, 6, 321665114
 1
-435877821
+Lost in the inbetween but it cant keep me asleep for long cause, 9, 435877821
 2
-1
+I can feel it, 1, 1
 3
-9
+When it is hopeless, 1, 9
 5 8
-1035
+It aint hopeless, 2, 1035
 0
-19
+I start to notice, 1, 19
 2
-360
+Falling forward, 2, 360
 2
-11
+Back into orbit, 1, 11
 3
-806
+Start to notice, 2, 806
 
-25314138
+It aint hopeless cause I start to notice, 5, 25314138
 0
-559933
+It was something I believed in, 4, 559933
 1
-10461620
+Aint no rest until the bank accounts peakin, 5, 10461620
 2
-681762
+They say the city never sleeps in, 4, 681762
 3
-253043857
+But living busy isnt giving you your worth, 6, 253043857
 4
-1108055
+Slowing down is fighting back, 4, 1108055
 0
-201802
+The time you take is given back, 4, 201802
 1
-225136
+Shifting gears is saving gas, 4, 225136
 2
-6715336
+Hiding in the quiet is well of wisdom, 5, 6715336
 3
-806
+Slowing down and see it, 2, 806
 
-1281
+Rest is a secret, 2, 1281
 0
-571
+I start to believe in, 2, 571
 2
-6900501
+This citys built on blood and muscle, 5, 6900501
 2
-392273986
+Skyscrapers held up by philosophy of hustling, 6, 392273986
 3
-1098947
+But Saturday is my cathedral, 4, 1098947
 4
-21173070
+A day to stop and rest is holding up the steeple, 5, 21173070
 0
-5896206
+This might be news to all the people, 5, 5896206
 1
-544540
+Living busy isnt giving you your worth, 4, 544540
 2 19
-6715336
+Hiding in the quiet is a world of wisdom, 5, 6715336
 3
-806
+Stopping the motion to process the moment, 2, 806
 
-41466
+Why dont we stop just to process, 3, 41466
 0
-32518068
+Can I take a minute maybe a breath to breathe, 6, 32518068
 1
-12006919
+Can I take a second Im craving clarity, 5, 12006919
 2
-459544917
+So lost in the thought of what one day I could be that, 7, 459544917
 3
-778168578
+That I forgot to take some time to make a richer me, 6, 778168578
 5
-778476743
+I searched around to find myself a mental cure, 6, 778476743
 0
-421209747
+I took a break thats probably what I was looking for, 6, 421209747
 2
-36742858
+What once was lost has finally got me reassured, 6, 36742858
 2
-544540
+Leaving room for greater paths, 4, 544540
 3
-806
+Letting go and kicking back, 2, 806
 
-1077354
+Reading books and taking baths, 4, 1077354
 0
-363
+Slowing down is, 2, 363
 1
-11013170
+Stopping the motion stopping the motion, 5, 11013170
 2 22
-13
+Glamorous, 1, 13
 3
-193967
+Indie rocknroll is what I want, 4, 193967
 4
-30034
+Its in my soul its what I need, 3, 30034
 0
-11899
+Indie rocknroll its time, 3, 11899
 1
-15
+Two of us, 1, 15
 2 4
-11714702
+Flipping through a thrift store magazine, 5, 11714702
 3
-806
+She plays the drums Im on tambourine, 2, 806
 
-23713
+Bet your bottom dollar on me, 3, 23713
 0
-599
+Its indie rocknroll for me, 2, 599
 1
-19
+Its all I need, 1, 19
 2
-1
+In a clutch, 1, 1
 3
-1009475
+Im talking every word for all the boys, 5, 1009475
 4
-766299
+Electric girls with worn down toys, 4, 766299
 0
-982239
+Make it up break it up what do you care, 5, 982239
 1
-23
+Oh what do you care, 1, 23
 3
-1165
+I take my twist with a shout, 3, 1165
 3
-806
+A coffee shop with a cause then Ill freak you out, 2, 806
 
-990659
+No sex no drugs no rock no roll, 4, 990659
 0
-237
+When it comes today, 2, 237
 1
-47888
+Stay if you wanna love me stay, 4, 47888
 2
-110597
+Oh dont be shy lets cause a scene, 4, 110597
 3
-10549
+Like lovers do on silver screens, 3, 10549
 5
-931586
+Lets make it yeah well cause a scene, 4, 931586
 0
-49095772
+Two of us flipping through a thrift store magazine, 7, 49095772
 1
-3630
+Indie rocknroll for me, 3, 3630
 2
-6779085
+Makin up breakin up what do you care, 5, 6779085
 3 14
-806
+Its indie rocknroll for me ow, 2, 806
 
-31902
+I believe in you and me, 3, 31902
 0
-326849990
+Im coming to find you if it takes me all night, 6, 326849990
 1
-13028
+Wrong until you make it right, 3, 13028
 2
-925782
+And I wont forget you at least Ill try, 4, 925782
 4
-543
+And run and run, 2, 543
 4 12
-679667386
+Tonight, 7, 679667386
 0
-202026560
+Everything will be alright everything will be alright, 7, 202026560
 1 28
-4752
+Everything will be alright, 3, 4752
 2
-268
+Alright alright, 2, 268
 3 11
-806
+Alright, 2, 806
 
-1103
+La la la la la la, 2, 1103
 0
-665674
+Ahoh, 4, 665674
 0
-19391
+I wasnt shopping for a doll, 3, 19391
 2
-391100910
+To say the least I thought Id seen them all, 6, 391100910
 3
-494667
+But then you took me by surprise, 4, 494667
 4
-225089735
+Im dreaming bout those dreamy eyes I never knew I never knew, 8, 225089735
 0
-437901
+So take your suitcases I dont mind, 4, 437901
 1
-4903902
+And baby doll I meant it every time, 5, 4903902
 2
-131
+You dont need to compromise, 2, 131
 4
-806
+But its alright, 2, 806
 
-1430
+Will be alright, 2, 1430
 0
-779574
+Baby you were the love of my life woah, 5, 779574
 1
-514387457
+Maybe you dont know whats lost til you find it, 6, 514387457
 2
-162771172
+Take a walk on Sunday through the afternoon, 6, 162771172
 3
-1120253
+We can always find somethin for us to do, 5, 1120253
 4
-309127753
+We dont really like whats on the news but its on all the time, 7, 309127753
 0
-488945
+I take you with me every time I go away, 4, 488945
 2
-3314
+In a hotel usin someone elses name, 3, 3314
 3
-244616828
+I remember back at Jonnys place its not the same anymore, 7, 244616828
 3
-806
+Its not what I wanted to leave you behind, 2, 806
 
-744711
+Dont know where youll land when you fly, 4, 744711
 0
-15412225
+But baby you were the love of my life, 5, 15412225
 1
-19
+Its unfortunate ooh, 1, 19
 2
-20
+Just coordinates ooh, 1, 20
 3 13
-303384443
+I dont know you half as well as all my friends, 6, 303384443
 4
-778583088
+I wont pretend that Ive been doin everything I can, 6, 778583088
 0
-12688332
+To get to know your creases and your ends, 5, 12688332
 1
-5
+Are they the same, 1, 5
 2 6 11 16
-851774494
+Oohooh, 6, 851774494
 0
-806
+Living in a daydream, 2, 806
 
-38082
+She said Love me like you paid me, 3, 38082
 0
-385972
+You know Ill be gone for so long, 4, 385972
 1
-364117554
+So give me all of your love give me something to dream about, 7, 364117554
 3 28
-23511
+Stay until the morning, 3, 23511
 3
-5611183
+Cause baby loving yous the real thing, 5, 5611183
 4
-1035
+It just feels right, 2, 1035
 0
-309698699
+When you give me all of your love give me something to dream about, 9, 309698699
 1
-892155235
+All of your love give me something to dream about, 7, 892155235
 2
-81618479
+Give me all of your love give me something to dream about, 8, 81618479
 3
-806
+Living in a daydream its all right, 2, 806
 
-417218719
+Give me all of your love give me something to dream about give me all of your love, 11, 417218719
 0
-815495459
+Give me all of your love give me something to dream about ooh its all right woo, 10, 815495459
 1
-224228504
+Give me all of your love give me something to dream about ow, 8, 224228504
 2
-11996
+Things havent been quite the same, 3, 11996
 3
-140390
+Theres a haze on the horizon babe, 4, 140390
 4
-30034
+Its only been a couple of days, 3, 30034
 0
-410
+And I miss you mm yeah, 2, 410
 1
-136198
+When nothin really goes to plan, 4, 136198
 2
-480822
+You stub your toe or break your camera, 4, 480822
 4
-806
+Ill do everythin I can, 2, 806
 
-1349
+To help you through, 2, 1349
 0
-6
+If youre feelin down, 1, 6
 1 9
-262122
+I just wanna make you happier baby, 4, 262122
 2
-8
+Wish I was around, 1, 8
 3
-53142
+Weve been doin all this late night talkin, 4, 53142
 5
-696136
+Bout anythin you want until the mornin, 4, 696136
 0
-458
+Now youre in my life, 2, 458
 1
-2566
+I cant get you off my mind, 3, 2566
 2
-11941
+Ive never been a fan of change, 3, 11941
 4
-806
+But Id follow you to any place, 2, 806
 
-861135
+If its Hollywood or Bishopsgate, 4, 861135
 0
-13
+Im coming too, 1, 13
 1 5
-426
+Cant get you off my mind, 2, 426
 2
-645006216
+Cant get you off my mind cant get you off my mind, 7, 645006216
 3 28
-360736
+I wont even try I wont even try, 4, 360736
 4 20
-956201186
+To get you off my mind get you off my mind, 6, 956201186
 0
-898204144
+Cant get you off my mind all this late night talkin, 7, 898204144
 1
-482726378
+I wont even try all this late night talkin, 6, 482726378
 2
-20
+Cant get you off my, 1, 20
 3 7
-806
+All this late night talkin, 2, 806
 
-1001
+Holdin me back, 2, 1001
 0
-15189
+Gravitys holdin me back, 3, 15189
 1
-472824464
+I want you to hold out the palm of your hand, 6, 472824464
 2
-3813
+Why dont we leave it at that, 3, 3813
 4
-9
+Nothin to say, 1, 9
 4
-1201948
+When everything gets in the way, 4, 1201948
 0
-126546
+Seems you cannot be replaced, 4, 126546
 1
-170069
+And Im the one who will stay oh, 4, 170069
 2
-17061
+In this world its just us, 3, 17061
 3
-806
+You know its not the same as it was, 2, 806
 
-802
+As it was as it was, 2, 802
 0
-456
+You know its not the same, 2, 456
 1
-574
+Answer the phone, 2, 574
 2
-547
+Harry youre no good alone, 2, 547
 3
-1152978
+Why are you sittin at home on the floor, 5, 1152978
 4
-1201838
+What kind of pills are you on, 4, 1201838
 0
-275
+Ringin the bell, 2, 275
 1 4
-5843
+And nobodys comin to help, 3, 5843
 2
-17607
+Your daddy lives by himself, 3, 17607
 3
-806
+He just wants to know that youre well oh, 2, 806
 
-23777840
+Go home get ahead lightspeed internet, 5, 23777840
 0
-110597
+I dont wanna talk about the way that it was, 4, 110597
 2
-1484
+Leave America two kids follow her, 3, 1484
 2
-318129102
+I dont wanna talk about whos doin it first, 6, 318129102
 3
-20
+As it was, 1, 20
 4
-43347
+You got you got the cinema, 3, 43347
 0
-244571953
+Its you, 7, 244571953
 0
-5864
+And Im not gettin over it, 3, 5864
 2
-357
+Darlin is it cool, 2, 357
 3
-806
+If Im stubborn when it comes to this, 2, 806
 
-35
+I guess were in time, 1, 35
 0
-6338232
+If youre getting yourself wet for me, 5, 6338232
 1
-6501
+I guess youre all mine, 3, 6501
 2
-445691
+Youre sleeping in this bed with me, 4, 445691
 3
-571
+I just think youre cool, 2, 571
 4
-35
+I dig your cinema, 1, 35
 0
-15105
+Do you think Im cool too, 3, 15105
 1
-1
+Or am I too into you, 1, 1
 3
-364535
+Tell me what you want and you got it love, 4, 364535
 3
-806
+I want all of you gimme all you got, 2, 806
 
-46
+Thats cinema, 1, 46
 0
-233
+Thats cinema uhhuh, 2, 233
 1
-10461532
+Dont know why but it feels so right to me, 5, 10461532
 2
-139006
+Something in the way you move, 4, 139006
 3
-7973802
+I like it when you dance for me I just think its, 5, 7973802
 4
-43347
+You all the time time time, 3, 43347
 0
-413062
+In doses at night night night, 4, 413062
 1
-18
+No roof on the drive, 1, 18
 3 16
-20
+Dust off the high, 1, 20
 3 9
-806
+And go to sleep go to sleep go to sleep, 2, 806
 
-925411
+I just think youre cool cocool, 4, 925411
 0
-125
+I dig your cinema cinema, 2, 125
 2
-42
+Or am I cinema too into you, 2, 42
 3
-601534879
+Cinema, 6, 601534879
 0
-218
+You got you got, 2, 218
 4 12
-31902
+I bring the pop you pop, 3, 31902
 0
+I bring the pop, 1, 2
 2
+I bring the pop to the cinema you pop, 5, 1861546
 2
-1861546
-2
-446984
+I bring the pop to the cinema, 4, 446984
 3
-806
+You pop when we get intimate, 2, 806
 
-43347
+You got you got cinema the cinema, 3, 43347
 0
-324607108
+You pop when we get intimate baby youre cinema, 6, 324607108
 1
-583872
+You got you got the cinema cinema, 4, 583872
 2 10
-796417056
+You were riding your bike to the sound of Its No Big Deal, 7, 796417056
 4
-774496481
+And youre trying to lift off the ground on those old two wheels, 9, 774496481
 4
-977114380
+Nothing about the way that you were treated ever seemed especially alarming til now, 11, 977114380
 0
-832096940
+So you tie up your hair and you smile like its no big deal, 8, 832096940
 1
-21
+You can let it go, 1, 21
 2
-2160491
+You can throw a party full of everyone you know, 5, 2160491
 4
-806
+And not invite your family cause they never showed you love, 2, 806
 
-156998962
+You dont have to be sorry for leaving and growing up mmh, 8, 156998962
 0
-34886479
+Matilda you talk of the pain like its all alright, 6, 34886479
 1
-335795304
+But I know that you feel like a piece of yous dead inside, 8, 335795304
 2
-78601237
+You showed me a power that is strong enough to bring sun to the darkest days, 9, 78601237
 4
-645289478
+Its none of my business but its just been on my mind, 7, 645289478
 4
-660586175
+You dont have to be sorry for leaving and growing up, 7, 660586175
 0
-324595767
+You can see the world following the seasons, 6, 324595767
 1
-18249863
+Anywhere you go you dont need a reason, 5, 18249863
 2
-470081
+Cause they never showed you love, 4, 470081
 3
-806
+You dont have to be sorry for doing it on your own, 2, 806
 
-36455354
+Youre just in time make your tea and your toast, 5, 36455354
 0
-413364280
+You framed all your posters and dyed your clothes ooh, 7, 413364280
 1
-21
+You dont have to go, 1, 21
 2
-131
+You dont have to go home, 2, 131
 4
-6891
+Oh theres a long way to go, 3, 6891
 4
-778119697
+I dont believe that time will change your mind, 6, 778119697
 0
-14
+In other words, 1, 14
 1
-663490431
+I know they wont hurt you anymore as long as you can let them go, 9, 663490431
 2
-62654230
+You can start a family who will always show you love, 6, 62654230
 4
-806
+You dont have to be sorry no, 2, 806
 
-25298065
+Ive been searching nothings working, 5, 25298065
 0
-543230
+Ive been tripping no ones perfect, 4, 543230
 1
-40643
+Chasing vision just the surface, 4, 40643
 2
-15737
+Shirts on backwards not on purpose, 3, 15737
 3
-53142
+Ive been learning something bigger, 4, 53142
 4
-776712
+Expectations feet were failing, 4, 776712
 0
-5502
+I found blessings flowing from, 3, 5502
 2
-5
+The sight of Heaven, 1, 5
 2 14 17
-15413
+Staring into my reflection, 3, 15413
 3
-806
+Redirecting my perfection somewhere else, 2, 806
 
-41
+Ohh ohh oh, 1, 41
 0
-6887
+When there isnt any progress, 3, 6887
 1
-1120661
+Lean on truth inside the promise it is well, 5, 1120661
 2
-12967
+I hold my life out in front of me, 3, 12967
 3
-396
+Dreams of who I want to be, 2, 396
 4
-1028
+Im seeing every empty page, 2, 1028
 0
-5321
+I find that everything I am is, 3, 5321
 2
-4752
+Everything I should be, 3, 4752
 2
-13041
+I dont need to run away, 3, 13041
 3
-806
+Ohh well I dont need to run away, 2, 806
 
-34721
+Ohh I dont need to run away, 3, 34721
 0
-10931065
+Somethings working heart is turning, 5, 10931065
 1
-13670880
+Visions clear and still Im learning, 5, 13670880
 2
-470909589
+That what I am what I am what I am what I am, 6, 470909589
 3
-376933
+Is something more than I can plan, 4, 376933
 4
-848701277
+Oh ohh, 6, 848701277
 0
-15
+Go tell me now, 1, 15
 1 12
-44694906
+I been standing on a stage or just a mirror, 6, 44694906
 2
-2672
+Forced to face who I become, 3, 2672
 3
-806
+Searching for a new escape, 2, 806
 
-26843967
+I scan the exits that embrace an easy out, 5, 26843967
 0
-150
+Need to run away, 2, 150
 1
-131
+I dont need to run, 2, 131
 2
-414201805
+Yesterday it finally came a sunny afternoon, 6, 414201805
 3
-450210803
+I was on my way to buy some flowers for you ooh, 6, 450210803
 4
-537089292
+Thought that we could hide away in a corner of the heath, 7, 537089292
 0
-5795495
+Theres never been someone whos so perfect for me, 5, 5795495
 1
-19320
+But I got over it and I said, 3, 19320
 2
-193812
+Give me somethin old and red, 4, 193812
 3
-806
+I pay for it more than I did back then, 2, 806
 
-1128785
+Theres just no gettin through, 4, 1128785
 0
-9
+Without you, 1, 9
 1
-73
+A bottle of rouge, 2, 73
 2
-20
+Just me and you, 1, 20
 3
-6778735
+Sittin in the garden Im a couple glasses in, 5, 6778735
 4
-26847291
+I was tryna count up all the places weve been, 5, 26847291
 0
-384023
+Youre always there so dont overthink, 4, 384023
 1
-566
+Im so over whites and pinks, 2, 566
 3
-221
+The grape juice blues, 2, 221
 4

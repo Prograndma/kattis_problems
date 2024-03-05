@@ -36,7 +36,7 @@ def generate_output_for_where_hash_present():
                 search_hash = hashy(search)
                 where = where_hash_present(line, len(search), search_hash)
                 # write_file.write(str(search_hash))
-                write_file.write(str(search_hash) + "\n" + list_to_space_separated_strings(where))
+                write_file.write(line + ", " + str(len(search)) + ", " + str(search_hash) + "\n" + list_to_space_separated_strings(where))
 
 
 def main():
