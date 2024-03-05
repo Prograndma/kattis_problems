@@ -30,11 +30,9 @@ def hashy(in_str):
     return cur_hash
 
 
-def rolling_hash(old_hash, max_pow, old_pos, new_pos):
-    return ((old_hash - old_pos * max_pow) * BASE + new_pos) % MOD
-
-
 def where_hash_present(in_str, hash_len, search_hash):
+    if hash_len == 0:
+        return list(range(len(in_str)))
     max_pow = pow(BASE, hash_len - 1)
     max_pow = max_pow % MOD
     # print(max_pow)
