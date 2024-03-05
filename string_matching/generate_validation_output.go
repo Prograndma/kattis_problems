@@ -20,7 +20,7 @@ func listToSpaceSeperatedString(toConvert []*big.Int) string {
 }
 
 func getScannerAndReadWriteFiles(readName, writeName string) (*bufio.Scanner, *os.File, *os.File) {
-	readFile, err := os.Open(TEST_FILE)
+	readFile, err := os.Open(readName)
 	if err != nil {
 		fmt.Println("ERROR in opening", readName)
 		fmt.Println(err)
@@ -80,29 +80,28 @@ func generateOutputForWhereHashPresent() {
 	defer file.Close()
 	defer writeFile.Close()
 	var i = 0
+	var hashed *big.Int
+	var firstLine string
+	var nextLine string
+	defer func() {
+		fmt.Println(i)
+		fmt.Println(firstLine)
+		fmt.Println(nextLine)
+	}()
 	for reader.Scan() {
-		var hashed *big.Int
-		var firstLine string
 		if i%2 == 0 {
 			firstLine = strings.TrimSpace(reader.Text())
 			hashed = hashy(firstLine)
 		} else {
-			nextLine := strings.TrimSpace(reader.Text())
+			nextLine = strings.TrimSpace(reader.Text())
 			whereResults := whereHashPresent(nextLine, len(firstLine), hashed)
 			where := listToSpaceSeperatedString(whereResults)
-			//fmt.Println(firstLine)
-			//fmt.Println(hashed)
-			//fmt.Println(nextLine + "\n")
 			_, err := writeFile.WriteString(where + "\n")
 			if err != nil {
 				fmt.Println(err)
 				fmt.Println("Error writing to file")
 			}
 		}
-		//if i > 5 {
-		//	return
-		//}
-
 		i++
 	}
 	fmt.Println("SUCCESS")
