@@ -35,7 +35,8 @@ def generate_output_for_where_hash_present():
                 line = lines[i + 1].strip()             # assume file has an even number of lines.
                 search_hash = hashy(search)
                 where = where_hash_present(line, len(search), search_hash)
-                write_file.write(list_to_space_separated_strings(where))
+                # write_file.write(str(search_hash))
+                write_file.write(str(search_hash) + "\n" + list_to_space_separated_strings(where))
 
 
 def main():
