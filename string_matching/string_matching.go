@@ -40,7 +40,7 @@ func hashy(inStr string) *big.Int {
 
 func whereHashPresent(inStr string, hashLen int, searchHash *big.Int) []*big.Int {
 	if hashLen == 0 {
-		a := make([]*big.Int, len(inStr)+1)
+		a := make([]*big.Int, len(inStr))
 		for i := range a {
 			a[i] = big.NewInt(int64(i))
 		}

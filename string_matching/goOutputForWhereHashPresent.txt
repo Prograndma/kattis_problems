@@ -7,7 +7,7 @@ helo, 4, 199680
 Hello there, 1, 12
 2 3
 peek a boo, 0, 0
-0 1 2 3 4 5 6 7 8 9 10
+0 1 2 3 4 5 6 7 8 9
 you speek a bootiful language, 3, 21481
 0
 anas, 4, 36211
@@ -167,7 +167,7 @@ Move on, 7, 521530654
 Cause things never last, 2, 556
 3
 Just move on, 0, 0
-0 1 2 3 4 5 6 7 8 9 10 11 12
+0 1 2 3 4 5 6 7 8 9 10 11
 Cause it goes too fast and the past has passed, 5, 20553755
 0
 So move on, 1, 15
@@ -827,7 +827,7 @@ Of waking up with pants on at four in the afternoon, 6, 472739969
 One two three four, 1, 20
 4 8
 Wont find out, 0, 0
-0 1 2 3 4 5 6 7 8 9 10 11 12 13
+0 1 2 3 4 5 6 7 8 9 10 11 12
 He wont find out, 2, 991
 0
 Maybe he wont find out what I know, 4, 45477
@@ -1395,7 +1395,7 @@ I think they want something, 2, 588
 I close my eyes I tell myself to breathe, 5, 2427682
 2
 And be calm, 0, 0
-0 1 2 3 4 5 6 7 8 9 10 11
+0 1 2 3 4 5 6 7 8 9 10
 Be calm, 2, 806
 
 I know you feel like you are breaking down, 6, 778289611
@@ -1433,7 +1433,7 @@ Will lead us to a chorus, 3, 41482
 Where well all rejoice and sing a song that goes, 6, 168071292
 1
 Oh be calm, 0, 0
-0 1 2 3 4 5 6 7 8 9 10
+0 1 2 3 4 5 6 7 8 9
 I know that it gets so hard sometimes, 5, 10289597
 3
 Take it from me Ive been there a thousand times, 2, 806
