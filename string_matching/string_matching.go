@@ -1,7 +1,11 @@
 package main
 
 import (
+	"bufio"
+	"fmt"
 	"math/big"
+	"os"
+	"strconv"
 	"strings"
 	"unicode"
 )
@@ -38,7 +42,28 @@ func hashy(inStr string) *big.Int {
 	return curHash
 }
 
-func whereHashPresent(inStr string, hashLen int, searchHash *big.Int) []*big.Int {
+func rollingHash(currentChar, maxPow, nextChar, oldHash *big.Int) *big.Int {
+	var temp = currentChar.Mul(currentChar, maxPow)
+	oldHash = oldHash.Sub(oldHash, temp)
+	oldHash = oldHash.Mul(oldHash, big.NewInt(int64(BASE)))
+	oldHash = oldHash.Add(oldHash, nextChar)
+	return oldHash.Mod(oldHash, big.NewInt(int64(MOD)))
+}
+
+func compare(curHash, searchHash *big.Int, writeFile *os.File) bool {
+	val := curHash.Cmp(searchHash) == 0
+	if writeFile != nil {
+		_, err := writeFile.WriteString(strconv.FormatBool(val) + "\n")
+		if err != nil {
+			fmt.Println(err)
+			fmt.Println("Error writing to rolling hash file")
+		}
+	}
+	return val
+}
+
+func whereHashPresent(inStr string, hashLen int, searchHash *big.Int, writeFile, compareFile *os.File) []*big.Int {
+	//writeFile := getWriteFile("string_matching\\goOutputForRollingHash.txt")
 	if hashLen == 0 {
 		a := make([]*big.Int, len(inStr))
 		for i := range a {
@@ -66,49 +91,62 @@ func whereHashPresent(inStr string, hashLen int, searchHash *big.Int) []*big.Int
 
 	for i := hashLen; i < len(s); i++ {
 		//curHash = ((curHash-s[i-hashLen]*int(maxPow))*int(BASE) + s[i]) % big.Int(MOD)
-		var temp = s[i-hashLen].Mul(s[i-hashLen], maxPow)
-		curHash = curHash.Sub(curHash, temp)
-		curHash = curHash.Mul(curHash, big.NewInt(int64(BASE)))
-		curHash = curHash.Add(curHash, s[i])
-		curHash = curHash.Mod(curHash, big.NewInt(int64(MOD)))
-		//curHash -= s[i-hashLen] * big.Int(maxPow)
-		//curHash *= big.Int(BASE)
-		//curHash += s[i]
-		//curHash %= big.Int(MOD)
+		curHash = rollingHash(s[i-hashLen], maxPow, s[i], curHash)
+		if writeFile != nil {
+			_, err := writeFile.WriteString(curHash.String() + "\n")
+			if err != nil {
+				fmt.Println(err)
+				fmt.Println("Error writing to rolling hash file")
+			}
+		}
+
+		//var temp = s[i-hashLen].Mul(s[i-hashLen], maxPow)
+		//curHash = curHash.Sub(curHash, temp)
+		//curHash = curHash.Mul(curHash, big.NewInt(int64(BASE)))
+		//curHash = curHash.Add(curHash, s[i])
+		//curHash = curHash.Mod(curHash, big.NewInt(int64(MOD)))
 		//if curHash == searchHash {
-		if curHash.Cmp(searchHash) == 0 {
+		if compare(curHash, searchHash, compareFile) {
 			where = append(where, big.NewInt(int64(i-hashLen+1)))
 		}
 	}
 	return where
 }
 
-//func main() {
-//	var isPattern = true
-//	var lineLen = 0
-//	var lineHash *big.Int
-//	scanner := bufio.NewScanner(os.Stdin)
-//	for {
-//		scanner.Scan()
-//		// Holds the string that scanned
-//		input := scanner.Text()
-//		input = strings.TrimSpace(input)
-//		if len(input) == 0 {
-//			break
-//		}
-//		if isPattern {
-//			//fmt.Println(input)
-//			isPattern = false
-//			lineHash = hashy(input)
-//			lineLen = len(input)
-//		} else {
-//			isPattern = true
-//			locations := whereHashPresent(input, lineLen, lineHash)
-//			for location := range locations {
-//				fmt.Print(locations[location], " ")
-//			}
-//			fmt.Println("")
-//		}
-//
-//	}
-//}
+func main() {
+	var isPattern = true
+	var lineLen = 0
+	var lineHash *big.Int
+	info, infoErr := os.Stdin.Stat()
+	if infoErr != nil {
+		panic(infoErr)
+	}
+	var maxSize int
+	scanner := bufio.NewScanner(os.Stdin)
+	maxSize = int(info.Size())
+	buffer := make([]byte, 0, maxSize)
+	scanner.Buffer(buffer, maxSize)
+	for {
+		scanner.Scan()
+		// Holds the string that scanned
+		input := scanner.Text()
+		input = strings.TrimSpace(input)
+		if len(input) == 0 {
+			break
+		}
+		if isPattern {
+			//fmt.Println(input)
+			isPattern = false
+			lineHash = hashy(input)
+			lineLen = len(input)
+		} else {
+			isPattern = true
+			locations := whereHashPresent(input, lineLen, lineHash, nil, nil)
+			for location := range locations {
+				fmt.Print(locations[location], " ")
+			}
+			fmt.Println("")
+		}
+
+	}
+}

@@ -70,10 +70,53 @@ def test_where_hash_present():
     print(f"{mis_matches}/{len(inputs)} tests failed\n")
 
 
+def test_rolling_hash():
+    print("Testing rolling_hash")
+
+    # Likely I won't be able to line up the inputs with the outputs. Hopefully I won't have to.
+
+    # with open(TEST_SEARCH_FILE) as file:
+    #     inputs = [line for line in file]
+
+    with open("python_output_for_rolling_hash.txt") as file:
+        python_outputs = [line for line in file]
+
+    with open("goOutputForRollingHash.txt") as file:
+        go_outputs = [line for line in file]
+    mis_matches = 0
+    for i, (py_out, go_out) in enumerate(zip(python_outputs, go_outputs)):
+        if py_out != go_out:
+            print(f"An error for {i}th input")
+            print(f"py_out (len={len(py_out.split())}): {py_out}")
+            print(f"go_out (len={len(go_out.split())}): {go_out}")
+            mis_matches += 1
+    print(f"{mis_matches}/{len(python_outputs)} tests failed\n")
+
+
+def test_compare():
+    print("Testing compare")
+
+    with open("python_output_for_compare.txt") as file:
+        python_outputs = [line.lower() for line in file]
+
+    with open("goOutputForCompare.txt") as file:
+        go_outputs = [line for line in file]
+    mis_matches = 0
+    for i, (py_out, go_out) in enumerate(zip(python_outputs, go_outputs)):
+        if py_out != go_out:
+            print(f"An error for {i}th input")
+            print(f"py_out (len={len(py_out.split())}): {py_out}")
+            print(f"go_out (len={len(go_out.split())}): {go_out}")
+            mis_matches += 1
+    print(f"{mis_matches}/{len(python_outputs)} tests failed\n")
+
+
 def main():
     test_chars_to_arbitrary_numbers()
     test_hashy()
     test_where_hash_present()
+    test_rolling_hash()
+    test_compare()
     print("ALL DONE")
 
 

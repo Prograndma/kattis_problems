@@ -29,14 +29,16 @@ def generate_output_for_hashy():
 def generate_output_for_where_hash_present():
     with open(TEST_SEARCH_FILE) as file:
         with open(f"{PRE}where_hash_present{END}", "w") as write_file:
-            lines = [line for line in file]
-            for i in range(0, len(lines), 2):           # every other element.
-                search = lines[i].strip()
-                line = lines[i + 1].strip()             # assume file has an even number of lines.
-                search_hash = hashy(search)
-                where = where_hash_present(line, len(search), search_hash)
-                # write_file.write(str(search_hash))
-                write_file.write(line + ", " + str(len(search)) + ", " + str(search_hash) + "\n" + list_to_space_separated_strings(where))
+            with open(f"{PRE}rolling_hash{END}", "w") as other_write_file:
+                with open(f"{PRE}compare{END}", "w") as compare_write_file:
+                    lines = [line for line in file]
+                    for i in range(0, len(lines), 2):           # every other element.
+                        search = lines[i].strip()
+                        line = lines[i + 1].strip()             # assume file has an even number of lines.
+                        search_hash = hashy(search)
+                        where = where_hash_present(line, len(search), search_hash, other_write_file, compare_write_file)
+                        # write_file.write(str(search_hash))
+                        write_file.write(line + ", " + str(len(search)) + ", " + str(search_hash) + "\n" + list_to_space_separated_strings(where))
 
 
 def main():

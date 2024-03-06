@@ -75,9 +75,21 @@ func generateOutputForHashy() {
 	fmt.Println("SUCCESS")
 }
 
+func getWriteFile(writeName string) *os.File {
+	writeFile, err := os.Create(writeName)
+	if err != nil {
+		fmt.Println("ERROR in creating", writeName)
+		fmt.Println(err)
+		panic("Uh oh.")
+	}
+	return writeFile
+}
+
 func generateOutputForWhereHashPresent() {
 	name := PRE + "WhereHashPresent" + END
 	reader, file, writeFile := getScannerAndReadWriteFiles(TEST_SEARCH_FILE, name)
+	otherWriteFile := getWriteFile("string_matching\\goOutputForRollingHash.txt")
+	compareWriteFile := getWriteFile("string_matching\\goOutputForCompare.txt")
 	defer file.Close()
 	defer writeFile.Close()
 	var i = 0
@@ -95,7 +107,7 @@ func generateOutputForWhereHashPresent() {
 			hashed = hashy(firstLine)
 		} else {
 			nextLine = strings.TrimSpace(reader.Text())
-			whereResults := whereHashPresent(nextLine, len(firstLine), hashed)
+			whereResults := whereHashPresent(nextLine, len(firstLine), hashed, otherWriteFile, compareWriteFile)
 			where := listToSpaceSeperatedString(whereResults)
 			_, err := writeFile.WriteString(nextLine + ", " + strconv.Itoa(len(firstLine)) + ", " + hashed.String() + "\n")
 			if err != nil {
@@ -115,7 +127,7 @@ func generateOutputForWhereHashPresent() {
 }
 
 func main() {
-	generateOutputForCharsToArbitraryNumbers()
-	generateOutputForHashy()
+	//generateOutputForCharsToArbitraryNumbers()
+	//generateOutputForHashy()
 	generateOutputForWhereHashPresent()
 }

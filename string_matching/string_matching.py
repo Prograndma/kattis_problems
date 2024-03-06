@@ -30,7 +30,17 @@ def hashy(in_str):
     return cur_hash
 
 
-def where_hash_present(in_str, hash_len, search_hash):
+def rolling_hash(current_char, next_char, max_pow, old_hash):
+    return ((old_hash - current_char * max_pow) * BASE + next_char) % MOD
+
+
+def compare(cur_hash, search_hash, write_file=None):
+    if write_file is not None:
+        write_file.write(str(cur_hash == search_hash) + "\n")
+    return cur_hash == search_hash
+
+
+def where_hash_present(in_str, hash_len, search_hash, write_file=None, compare_file=None):
     if hash_len == 0:
         return list(range(len(in_str)))
     max_pow = pow(BASE, hash_len - 1)
@@ -50,8 +60,11 @@ def where_hash_present(in_str, hash_len, search_hash):
 
     # Update hash values for subsequent substrings
     for i in range(hash_len, len(s)):
-        cur_hash = ((cur_hash - s[i - hash_len] * max_pow) * BASE + s[i]) % MOD
-        if cur_hash == search_hash:
+        # cur_hash = ((cur_hash - s[i - hash_len] * max_pow) * BASE + s[i]) % MOD
+        cur_hash = rolling_hash(s[i - hash_len], s[i], max_pow, cur_hash)
+        if write_file is not None:
+            write_file.write(str(cur_hash) + "\n")
+        if compare(cur_hash, search_hash, compare_file):
             where.append(i - hash_len + 1)
     return where
 
