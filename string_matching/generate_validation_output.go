@@ -88,8 +88,8 @@ func getWriteFile(writeName string) *os.File {
 func generateOutputForWhereHashPresent() {
 	name := PRE + "WhereHashPresent" + END
 	reader, file, writeFile := getScannerAndReadWriteFiles(TEST_SEARCH_FILE, name)
-	otherWriteFile := getWriteFile("string_matching\\goOutputForRollingHash.txt")
-	compareWriteFile := getWriteFile("string_matching\\goOutputForCompare.txt")
+	otherWriteFile := getWriteFile("string_matching\\" + PRE + "RollingHash" + END)
+	compareWriteFile := getWriteFile("string_matching\\" + PRE + "Compare" + END)
 	defer file.Close()
 	defer writeFile.Close()
 	var i = 0
