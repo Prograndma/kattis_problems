@@ -124,7 +124,6 @@ func main() {
 			break
 		}
 		if isPattern {
-			//fmt.Println(input)
 			isPattern = false
 			lineHash = hashy(input)
 			lineLen = len(input)
