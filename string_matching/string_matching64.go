@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"math"
 	"os"
+	"strconv"
 	"strings"
 	"unicode"
 )
@@ -38,7 +39,30 @@ func hashy64(inStr string) int64 {
 	return curHash
 }
 
-func whereHashPresent64(inStr string, hashLen int, searchHash int64) []int64 {
+func rollingHash64(currentChar, maxPow, nextChar, oldHash int64) int64 {
+	return ((oldHash-currentChar*maxPow)*int64(BASE64) + nextChar) % int64(MOD64)
+}
+
+func compare64(curHash, searchHash int64, writeFile *os.File) bool {
+	val := curHash == searchHash
+	if writeFile != nil {
+		_, err := writeFile.WriteString(strconv.FormatBool(val) + "\n")
+		if err != nil {
+			fmt.Println(err)
+			fmt.Println("Error writing to rolling hash file")
+		}
+	}
+	return val
+}
+
+func whereHashPresent64(inStr string, hashLen int, searchHash int64, writeFile, compareFile *os.File) []int64 {
+	if hashLen == 0 {
+		a := make([]int64, len(inStr))
+		for i := range a {
+			a[i] = int64(i)
+		}
+		return a
+	}
 	tmp := math.Pow(BASE64, float64(hashLen-1))
 	tmp = math.Mod(tmp, MOD64)
 	maxPow := int64(tmp)
@@ -55,11 +79,15 @@ func whereHashPresent64(inStr string, hashLen int, searchHash int64) []int64 {
 	}
 
 	for i := hashLen; i < len(s); i++ {
-		curHash -= s[i-hashLen] * maxPow
-		curHash *= int64(BASE64)
-		curHash += s[i]
-		curHash %= int64(MOD64)
-		if curHash == searchHash {
+		curHash = rollingHash64(s[i-hashLen], maxPow, s[i], curHash)
+		if writeFile != nil {
+			_, err := writeFile.WriteString(strconv.FormatInt(curHash, 10) + "\n")
+			if err != nil {
+				fmt.Println(err)
+				fmt.Println("Error writing to rolling hash file")
+			}
+		}
+		if compare64(curHash, searchHash, compareFile) {
 			where = append(where, int64(i-hashLen+1))
 		}
 	}
@@ -70,11 +98,23 @@ func main() {
 	var isPattern = true
 	var lineLen = 0
 	var lineHash int64
+	//file, _ := os.Open("\\string_matching\\input.txt")
+	info, infoErr := os.Stdin.Stat()
+	//info, infoErr := file.Stat()
+	if infoErr != nil {
+		panic(infoErr)
+	}
+	var maxSize int
 	scanner := bufio.NewScanner(os.Stdin)
+	//scanner := bufio.NewScanner(file)
+	maxSize = int(info.Size())
+	buffer := make([]byte, 0, maxSize)
+	scanner.Buffer(buffer, maxSize)
 	for {
 		scanner.Scan()
 		// Holds the string that scanned
 		input := scanner.Text()
+		input = strings.TrimSpace(input)
 		if len(input) == 0 {
 			break
 		}
@@ -85,7 +125,7 @@ func main() {
 			lineLen = len(input)
 		} else {
 			isPattern = true
-			locations := whereHashPresent64(input, lineLen, lineHash)
+			locations := whereHashPresent64(input, lineLen, lineHash, nil, nil)
 			for location := range locations {
 				fmt.Print(locations[location], " ")
 			}
