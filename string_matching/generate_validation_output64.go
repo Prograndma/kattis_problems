@@ -58,11 +58,6 @@ func generateOutputForWhereHashPresent64() {
 	var hashed int64
 	var firstLine string
 	var nextLine string
-	//defer func() {
-	//	fmt.Println(i)
-	//	fmt.Println(firstLine)
-	//	fmt.Println(nextLine)
-	//}()
 	for reader.Scan() {
 		if i%2 == 0 {
 			firstLine = strings.TrimSpace(reader.Text())
@@ -88,8 +83,8 @@ func generateOutputForWhereHashPresent64() {
 
 }
 
-//func main() {
-//	generateOutputForCharsToArbitraryNumbers64()
-//	generateOutputForHashy64()
-//	generateOutputForWhereHashPresent64()
-//}
+func main() {
+	generateOutputForCharsToArbitraryNumbers64()
+	generateOutputForHashy64()
+	generateOutputForWhereHashPresent64()
+}
