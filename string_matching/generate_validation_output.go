@@ -88,19 +88,14 @@ func getWriteFile(writeName string) *os.File {
 func generateOutputForWhereHashPresent() {
 	name := PRE + "WhereHashPresent" + END
 	reader, file, writeFile := getScannerAndReadWriteFiles(TEST_SEARCH_FILE, name)
-	otherWriteFile := getWriteFile("string_matching\\" + PRE + "RollingHash" + END)
-	compareWriteFile := getWriteFile("string_matching\\" + PRE + "Compare" + END)
+	otherWriteFile := getWriteFile(PRE + "RollingHash" + END)
+	compareWriteFile := getWriteFile(PRE + "Compare" + END)
 	defer file.Close()
 	defer writeFile.Close()
 	var i = 0
 	var hashed *big.Int
 	var firstLine string
 	var nextLine string
-	//defer func() {
-	//	fmt.Println(i)
-	//	fmt.Println(firstLine)
-	//	fmt.Println(nextLine)
-	//}()
 	for reader.Scan() {
 		if i%2 == 0 {
 			firstLine = strings.TrimSpace(reader.Text())

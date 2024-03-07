@@ -50,8 +50,8 @@ func generateOutputForHashy64() {
 func generateOutputForWhereHashPresent64() {
 	name := PRE + "WhereHashPresent" + END64
 	reader, file, writeFile := getScannerAndReadWriteFiles(TEST_SEARCH_FILE, name)
-	otherWriteFile := getWriteFile("string_matching\\" + PRE + "RollingHash" + END64)
-	compareWriteFile := getWriteFile("string_matching\\" + PRE + "Compare" + END64)
+	otherWriteFile := getWriteFile(PRE + "RollingHash" + END64)
+	compareWriteFile := getWriteFile(PRE + "Compare" + END64)
 	defer file.Close()
 	defer writeFile.Close()
 	var i = 0
@@ -88,8 +88,8 @@ func generateOutputForWhereHashPresent64() {
 
 }
 
-func main() {
-	generateOutputForCharsToArbitraryNumbers64()
-	generateOutputForHashy64()
-	generateOutputForWhereHashPresent64()
-}
+//func main() {
+//	generateOutputForCharsToArbitraryNumbers64()
+//	generateOutputForHashy64()
+//	generateOutputForWhereHashPresent64()
+//}
