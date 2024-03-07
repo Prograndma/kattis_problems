@@ -122,7 +122,7 @@ func generateOutputForWhereHashPresent() {
 }
 
 func main() {
-	//generateOutputForCharsToArbitraryNumbers()
-	//generateOutputForHashy()
+	generateOutputForCharsToArbitraryNumbers()
+	generateOutputForHashy()
 	generateOutputForWhereHashPresent()
 }
