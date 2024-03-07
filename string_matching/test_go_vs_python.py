@@ -12,12 +12,16 @@ def test_chars_to_arbitrary_numbers():
 
     with open("goOutputForcharsToArbitraryNumbers.txt") as file:
         go_outputs = [line for line in file]
+
+    with open("goOutputForcharsToArbitraryNumbers64.txt") as file:
+        go64_outputs = [line for line in file]
     mis_matches = 0
-    for in_val, py_out, go_out in zip(inputs, python_outputs, go_outputs):
-        if py_out != go_out:
+    for in_val, py_out, go_out, go64_out in zip(inputs, python_outputs, go_outputs, go64_outputs):
+        if py_out != go_out != go64_out:
             print(f"An error for input (len={len(in_val)}): {in_val}")
             print(f"py_out (len={len(py_out.split())}): {py_out}")
-            print(f"go_out (len={len(go_out.split())}): {go_out}\n")
+            print(f"go_out (len={len(go_out.split())}): {go_out}")
+            print(f"go64_t (len={len(go64_out.split())}): {go64_out}\n")
             mis_matches += 1
     print(f"{mis_matches}/{len(inputs)} tests failed\n")
 
@@ -32,12 +36,16 @@ def test_hashy():
 
     with open("goOutputForHashy.txt") as file:
         go_outputs = [line for line in file]
+
+    with open("goOutputForHashy64.txt") as file:
+        go64_outputs = [line for line in file]
     mis_matches = 0
-    for in_val, py_out, go_out in zip(inputs, python_outputs, go_outputs):
-        if py_out != go_out:
+    for in_val, py_out, go_out, go64_out in zip(inputs, python_outputs, go_outputs, go64_outputs):
+        if py_out != go_out != go64_out:
             print(f"An error for input (len={len(in_val)}): {in_val}")
             print(f"py_out (len={len(py_out.split())}): {py_out}")
-            print(f"go_out (len={len(go_out.split())}): {go_out}\n")
+            print(f"go_out (len={len(go_out.split())}): {go_out}")
+            print(f"go64_t (len={len(go64_out.split())}): {go64_out}\n")
             mis_matches += 1
     print(f"{mis_matches}/{len(inputs)} tests failed\n")
 
@@ -52,16 +60,20 @@ def test_where_hash_present():
 
     with open("goOutputForWhereHashPresent.txt") as file:
         go_outputs = [line for line in file]
+
+    with open("goOutputForWhereHashPresent64.txt") as file:
+        go64_outputs = [line for line in file]
     mis_matches = 0
-    for i, (in_val, py_out, go_out) in enumerate(zip(inputs, python_outputs, go_outputs)):
+    for i, (in_val, py_out, go_out, go64_out) in enumerate(zip(inputs, python_outputs, go_outputs, go64_outputs)):
         if i % 2 == 0:
             py_prev = py_out
             go_prev = go_out
             in_prev = in_val
-        if py_out != go_out:
+        if py_out != go_out != go64_out:
             print(f"An error for {i}th input (len={len(in_val[1])}): {in_val}")
             print(f"py_out (len={len(py_out.split())}): {py_out}")
             print(f"go_out (len={len(go_out.split())}): {go_out}")
+            print(f"go64_t (len={len(go64_out.split())}): {go64_out}")
 
             print(f"Previous input : {in_prev}")
             print(f"Previous python: {py_prev}")
@@ -73,22 +85,21 @@ def test_where_hash_present():
 def test_rolling_hash():
     print("Testing rolling_hash")
 
-    # Likely I won't be able to line up the inputs with the outputs. Hopefully I won't have to.
-
-    # with open(TEST_SEARCH_FILE) as file:
-    #     inputs = [line for line in file]
-
     with open("python_output_for_rolling_hash.txt") as file:
         python_outputs = [line for line in file]
 
     with open("goOutputForRollingHash.txt") as file:
         go_outputs = [line for line in file]
+
+    with open("goOutputForWhereHashPresent64.txt") as file:
+        go64_outputs = [line for line in file]
     mis_matches = 0
-    for i, (py_out, go_out) in enumerate(zip(python_outputs, go_outputs)):
-        if py_out != go_out:
+    for i, (py_out, go_out, go64_out) in enumerate(zip(python_outputs, go_outputs, go64_outputs)):
+        if py_out != go_out != go64_out:
             print(f"An error for {i}th input")
             print(f"py_out (len={len(py_out.split())}): {py_out}")
             print(f"go_out (len={len(go_out.split())}): {go_out}")
+            print(f"go64_t (len={len(go64_out.split())}): {go64_out}")
             mis_matches += 1
     print(f"{mis_matches}/{len(python_outputs)} tests failed\n")
 
@@ -101,12 +112,16 @@ def test_compare():
 
     with open("goOutputForCompare.txt") as file:
         go_outputs = [line for line in file]
+
+    with open("goOutputForWhereHashPresent64.txt") as file:
+        go64_outputs = [line for line in file]
     mis_matches = 0
-    for i, (py_out, go_out) in enumerate(zip(python_outputs, go_outputs)):
-        if py_out != go_out:
+    for i, (py_out, go_out, go64_out) in enumerate(zip(python_outputs, go_outputs, go64_outputs)):
+        if py_out != go_out != go64_out:
             print(f"An error for {i}th input")
             print(f"py_out (len={len(py_out.split())}): {py_out}")
             print(f"go_out (len={len(go_out.split())}): {go_out}")
+            print(f"go64_t (len={len(go64_out.split())}): {go64_out}")
             mis_matches += 1
     print(f"{mis_matches}/{len(python_outputs)} tests failed\n")
 
