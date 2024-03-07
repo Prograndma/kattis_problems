@@ -98,15 +98,12 @@ func main() {
 	var isPattern = true
 	var lineLen = 0
 	var lineHash int64
-	//file, _ := os.Open("\\string_matching\\input.txt")
 	info, infoErr := os.Stdin.Stat()
-	//info, infoErr := file.Stat()
 	if infoErr != nil {
 		panic(infoErr)
 	}
 	var maxSize int
 	scanner := bufio.NewScanner(os.Stdin)
-	//scanner := bufio.NewScanner(file)
 	maxSize = int(info.Size())
 	buffer := make([]byte, 0, maxSize)
 	scanner.Buffer(buffer, maxSize)
@@ -119,7 +116,6 @@ func main() {
 			break
 		}
 		if isPattern {
-			//fmt.Println(input)
 			isPattern = false
 			lineHash = hashy64(input)
 			lineLen = len(input)
