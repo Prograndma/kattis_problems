@@ -34,7 +34,6 @@ func hashy(inStr string) *big.Int {
 	s := charsToArbitraryNumbers(inStr)
 	var curHash = big.NewInt(0)
 	for i := 0; i < len(s); i++ {
-		//curHash = (curHash*int(BASE) + s[i]) % big.Int(MOD)
 		curHash = curHash.Mul(curHash, big.NewInt(int64(BASE)))
 		curHash = curHash.Add(curHash, s[i])
 		curHash = curHash.Mod(curHash, big.NewInt(int64(MOD)))
@@ -63,7 +62,6 @@ func compare(curHash, searchHash *big.Int, writeFile *os.File) bool {
 }
 
 func whereHashPresent(inStr string, hashLen int, searchHash *big.Int, writeFile, compareFile *os.File) []*big.Int {
-	//writeFile := getWriteFile("string_matching\\goOutputForRollingHash.txt")
 	if hashLen == 0 {
 		a := make([]*big.Int, len(inStr))
 		for i := range a {
@@ -78,7 +76,6 @@ func whereHashPresent(inStr string, hashLen int, searchHash *big.Int, writeFile,
 	var where []*big.Int
 	var curHash = big.NewInt(0)
 	for i := 0; i < hashLen; i++ {
-		//curHash = (curHash*int(BASE) + s[i]) % big.Int(MOD)
 		curHash = curHash.Mul(curHash, big.NewInt(int64(BASE)))
 		curHash = curHash.Add(curHash, s[i])
 		curHash = curHash.Mod(curHash, big.NewInt(int64(MOD)))
@@ -90,7 +87,6 @@ func whereHashPresent(inStr string, hashLen int, searchHash *big.Int, writeFile,
 	}
 
 	for i := hashLen; i < len(s); i++ {
-		//curHash = ((curHash-s[i-hashLen]*int(maxPow))*int(BASE) + s[i]) % big.Int(MOD)
 		curHash = rollingHash(s[i-hashLen], maxPow, s[i], curHash)
 		if writeFile != nil {
 			_, err := writeFile.WriteString(curHash.String() + "\n")
@@ -99,13 +95,6 @@ func whereHashPresent(inStr string, hashLen int, searchHash *big.Int, writeFile,
 				fmt.Println("Error writing to rolling hash file")
 			}
 		}
-
-		//var temp = s[i-hashLen].Mul(s[i-hashLen], maxPow)
-		//curHash = curHash.Sub(curHash, temp)
-		//curHash = curHash.Mul(curHash, big.NewInt(int64(BASE)))
-		//curHash = curHash.Add(curHash, s[i])
-		//curHash = curHash.Mod(curHash, big.NewInt(int64(MOD)))
-		//if curHash == searchHash {
 		if compare(curHash, searchHash, compareFile) {
 			where = append(where, big.NewInt(int64(i-hashLen+1)))
 		}
