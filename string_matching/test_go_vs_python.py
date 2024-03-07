@@ -17,7 +17,7 @@ def test_chars_to_arbitrary_numbers():
         go64_outputs = [line for line in file]
     mis_matches = 0
     for in_val, py_out, go_out, go64_out in zip(inputs, python_outputs, go_outputs, go64_outputs):
-        if py_out != go_out != go64_out:
+        if py_out != go_out and go_out != go64_out:
             print(f"An error for input (len={len(in_val)}): {in_val}")
             print(f"py_out (len={len(py_out.split())}): {py_out}")
             print(f"go_out (len={len(go_out.split())}): {go_out}")
@@ -41,7 +41,7 @@ def test_hashy():
         go64_outputs = [line for line in file]
     mis_matches = 0
     for in_val, py_out, go_out, go64_out in zip(inputs, python_outputs, go_outputs, go64_outputs):
-        if py_out != go_out != go64_out:
+        if py_out != go_out and go_out != go64_out:
             print(f"An error for input (len={len(in_val)}): {in_val}")
             print(f"py_out (len={len(py_out.split())}): {py_out}")
             print(f"go_out (len={len(go_out.split())}): {go_out}")
@@ -69,7 +69,7 @@ def test_where_hash_present():
             py_prev = py_out
             go_prev = go_out
             in_prev = in_val
-        if py_out != go_out != go64_out:
+        if py_out != go_out and go_out != go64_out:
             print(f"An error for {i}th input (len={len(in_val[1])}): {in_val}")
             print(f"py_out (len={len(py_out.split())}): {py_out}")
             print(f"go_out (len={len(go_out.split())}): {go_out}")
@@ -95,7 +95,7 @@ def test_rolling_hash():
         go64_outputs = [line for line in file]
     mis_matches = 0
     for i, (py_out, go_out, go64_out) in enumerate(zip(python_outputs, go_outputs, go64_outputs)):
-        if py_out != go_out != go64_out:
+        if py_out != go_out and go_out != go64_out:
             print(f"An error for {i}th input")
             print(f"py_out (len={len(py_out.split())}): {py_out}")
             print(f"go_out (len={len(go_out.split())}): {go_out}")
@@ -117,7 +117,7 @@ def test_compare():
         go64_outputs = [line for line in file]
     mis_matches = 0
     for i, (py_out, go_out, go64_out) in enumerate(zip(python_outputs, go_outputs, go64_outputs)):
-        if py_out != go_out != go64_out:
+        if py_out != go_out and go_out != go64_out:
             print(f"An error for {i}th input")
             print(f"py_out (len={len(py_out.split())}): {py_out}")
             print(f"go_out (len={len(go_out.split())}): {go_out}")
