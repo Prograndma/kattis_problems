@@ -34,13 +34,19 @@ func hashy64(inStr string) int64 {
 	s := charsToArbitraryNumbers64(inStr)
 	var curHash int64 = 0
 	for i := 0; i < len(s); i++ {
-		curHash = (curHash*int64(BASE64) + s[i]) % int64(MOD64)
+		curHash = curHash * int64(BASE64)
+		curHash = curHash + s[i]
+		curHash = curHash % int64(MOD64)
 	}
 	return curHash
 }
 
 func rollingHash64(currentChar, maxPow, nextChar, oldHash int64) int64 {
-	return ((oldHash-currentChar*maxPow)*int64(BASE64) + nextChar) % int64(MOD64)
+	var temp = currentChar * maxPow
+	oldHash = oldHash - temp
+	oldHash = oldHash * int64(BASE64)
+	oldHash = oldHash + nextChar
+	return oldHash % int64(MOD64)
 }
 
 func compare64(curHash, searchHash int64, writeFile *os.File) bool {
@@ -70,10 +76,10 @@ func whereHashPresent64(inStr string, hashLen int, searchHash int64, writeFile, 
 	var where []int64
 	var curHash int64 = 0
 	for i := 0; i < hashLen; i++ {
-		curHash = (curHash*int64(BASE64) + s[i]) % int64(MOD64)
+		curHash = curHash * int64(BASE64)
+		curHash = curHash + s[i]
+		curHash = curHash % int64(MOD64)
 	}
-	// since we don't know how big where will be this might be better, we do have an upper limit though.
-	// Which is faster? allocating bigger memory? Or dealing with slices?
 	if searchHash == curHash {
 		where = append(where, 0)
 	}
@@ -127,6 +133,5 @@ func main() {
 			}
 			fmt.Println("")
 		}
-
 	}
 }
