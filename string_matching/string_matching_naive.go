@@ -3,46 +3,18 @@ package main
 import (
 	"bufio"
 	"fmt"
-	"math"
 	"os"
 	"strings"
 )
 
 func whereStringPresentGood(input, search string, searchLen int) []int {
-	var wherePos = 0
-	where := make([]int, len(input))
+	var where []int
 	for i := 0; i <= len(input)-searchLen; i++ {
 		if input[i:i+searchLen] == search {
-			where[wherePos] = i
-			wherePos++
+			where = append(where, i)
 		}
 	}
-	return where[:wherePos]
-}
-
-func whereStringPresent(input, search string, searchLen int) []int {
-	//fmt.Println("Input", input)
-	//fmt.Println("search", search)
-	//fmt.Println("searchLen", searchLen)
-	var searchPos = 0
-	var wherePos = 0
-	var found = 0
-	where := make([]int, int(math.Ceil(float64(len(input))/float64(searchLen))))
-	for i := range input {
-		if input[i] == search[searchPos] {
-			if searchPos < searchLen-1 {
-				searchPos++
-			} else {
-				where[wherePos] = i - searchLen + 1
-				wherePos++
-				found++
-				searchPos = 0
-			}
-		} else {
-			searchPos = 0
-		}
-	}
-	return where[:found]
+	return where
 }
 
 func main() {
