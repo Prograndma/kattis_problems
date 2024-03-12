@@ -80,8 +80,6 @@ func whereHashPresent(inStr string, hashLen int, searchHash *big.Int, writeFile,
 		curHash = curHash.Add(curHash, s[i])
 		curHash = curHash.Mod(curHash, big.NewInt(int64(MOD)))
 	}
-	// since we don't know how big where will be this might be better, we do have an upper limit though.
-	// Which is faster? allocating bigger memory? Or dealing with slices?
 	if curHash.Cmp(searchHash) == 0 {
 		where = append(where, big.NewInt(0))
 	}
@@ -135,6 +133,5 @@ func main() {
 			}
 			fmt.Println("")
 		}
-
 	}
 }
