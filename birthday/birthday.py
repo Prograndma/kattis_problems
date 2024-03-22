@@ -5,17 +5,12 @@ class ThereIsABridge(Exception):
 class Graph:
     def __init__(self, num_nodes):
         self.num_nodes = num_nodes
-        self.nodes = [ [] for _ in range(self.num_nodes)]
+        self.nodes = [[] for _ in range(self.num_nodes)]
         self.time = 0
 
     def add_connection(self, start, end):
         self.nodes[start].append(end)
         self.nodes[end].append(start)
-
-    def get_connections(self, node, parent=None):
-        if parent is not None:
-            return self.nodes[:].remove(parent)     # a quick way to copy the list, and remove the parent.
-        return self.nodes[node]
 
     def has_a_bridge(self):
         self.time = 0
